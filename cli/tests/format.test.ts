@@ -64,14 +64,14 @@ test("pick keeps only requested SearchApi fields and skips absent ones", () => {
   ).toEqual({ title: "t", link: "l" });
 });
 
-test("projectFields trims each organic result and leaves blocks alone", () => {
+test("projectFields keeps only results arrays, dropping every other block", () => {
   const out = projectFields(RAW, ["title", "link", "position", "date"]) as {
-    answer_box: unknown;
-    knowledge_graph: unknown;
     organic_results: unknown[];
   };
-  expect(out.answer_box).toEqual({ answer: "42" });
-  expect(out.knowledge_graph).toEqual({ title: "ChatGPT", type: "Software" });
+  expect(out).not.toHaveProperty("answer_box");
+  expect(out).not.toHaveProperty("knowledge_graph");
+  expect(out).not.toHaveProperty("related_questions");
+  expect(out).not.toHaveProperty("related_searches");
   expect(out.organic_results).toEqual([
     {
       position: 1,
@@ -102,9 +102,9 @@ test("projectFields with no fields is a no-op", () => {
   expect(projectFields(RAW, [])).toBe(RAW);
 });
 
-test("projectFields is a no-op when there is no results array", () => {
+test("projectFields returns an empty object when fields given but no results array", () => {
   const obj = { answer_box: { answer: "42" }, knowledge_graph: { title: "x" } };
-  expect(projectFields(obj, ["title"])).toBe(obj);
+  expect(projectFields(obj, ["title"])).toEqual({});
 });
 
 test("shape compact + fields produces the minimal SearchApi payload", () => {
@@ -113,6 +113,9 @@ test("shape compact + fields produces the minimal SearchApi payload", () => {
   };
   expect(out).not.toHaveProperty("search_metadata");
   expect(out).not.toHaveProperty("pagination");
+  expect(out).not.toHaveProperty("answer_box");
+  expect(out).not.toHaveProperty("related_questions");
+  expect(Object.keys(out)).toEqual(["organic_results"]);
   expect(out.organic_results[0]).toEqual({
     title: "Introducing ChatGPT",
     link: "https://openai.com/index/chatgpt/",

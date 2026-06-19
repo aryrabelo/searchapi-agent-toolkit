@@ -1,11 +1,11 @@
 import { test, expect } from "bun:test";
 import { parseArgs } from "../src/cli";
 
-test("defaults: google, num 10, compact, no fields", () => {
+test("defaults: google_light, num 10, compact, no fields", () => {
   const a = parseArgs(["search", "hello world"]);
   expect(a.command).toBe("search");
   expect(a.query).toBe("hello world");
-  expect(a.engine).toBe("google");
+  expect(a.engine).toBe("google_light");
   expect(a.num).toBe(10);
   expect(a.format).toBe("compact");
   expect(a.fields).toEqual([]);

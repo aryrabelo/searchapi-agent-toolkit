@@ -20,7 +20,7 @@ Usage:
   searchapi search "<query>" [--engine <name>] [--num <n>] [--fields a,b,c] [--format compact|complete] [--location <loc>] [--gl <cc>] [--hl <lang>]
 
 Options:
-  --engine   SearchApi engine (default: google)
+  --engine   SearchApi engine (default: google_light)
   --num      number of results (default: 10)
   --fields   comma-separated fields to keep from each *_results item (default: all)
   --format   compact = drop metadata (default) | complete = raw JSON
@@ -29,8 +29,9 @@ Options:
   --hl       two-letter UI language code, e.g. pt, en (default: none)
   -h, --help show this help
 
---fields projects every *_results array; it is a no-op on responses with no
-results array (e.g. an answer_box). Both --flag value and --flag=value work.
+--fields returns only the *_results arrays, each trimmed to the named keys; all
+other blocks (ads, answer_box, knowledge_graph, ...) are dropped. Both --flag
+value and --flag=value work.
 
 Env:
   SEARCHAPI_API_KEY   required
@@ -41,35 +42,59 @@ Examples:
   searchapi search "doaudio.app" --engine google --location Brazil --gl br --hl pt --fields title,link
 `;
 
-const VALUE_FLAGS = new Set(["engine", "num", "fields", "format", "location", "gl", "hl"]);
-
-function applyFlag(out: ParsedArgs, key: string, value: string): void {
-  if (key === "engine") {
-    out.engine = value;
-  } else if (key === "num") {
-    const n = Number(value);
-    if (Number.isInteger(n) && n > 0) out.num = n;
-  } else if (key === "fields") {
-    out.fields = value
+// One setter per value flag. The key set doubles as the known-flag allowlist.
+const FLAG_SETTERS: Record<string, (out: ParsedArgs, value: string) => void> = {
+  engine: (o: ParsedArgs, v: string) => {
+    o.engine = v;
+  },
+  num: (o: ParsedArgs, v: string) => {
+    const n = Number(v);
+    if (Number.isInteger(n) && n > 0) o.num = n;
+  },
+  fields: (o: ParsedArgs, v: string) => {
+    o.fields = v
       .split(",")
-      .map((s) => s.trim())
+      .map((s: string) => s.trim())
       .filter(Boolean);
-  } else if (key === "format") {
-    if (value === "compact" || value === "complete") out.format = value;
-  } else if (key === "location") {
-    out.location = value;
-  } else if (key === "gl") {
-    out.gl = value;
-  } else if (key === "hl") {
-    out.hl = value;
+  },
+  format: (o: ParsedArgs, v: string) => {
+    if (v === "compact" || v === "complete") o.format = v;
+  },
+  location: (o: ParsedArgs, v: string) => {
+    o.location = v;
+  },
+  gl: (o: ParsedArgs, v: string) => {
+    o.gl = v;
+  },
+  hl: (o: ParsedArgs, v: string) => {
+    o.hl = v;
+  },
+};
+
+/** Handle one `--flag` (space or = form). Returns the (possibly advanced) argv index. */
+function applyLongFlag(out: ParsedArgs, arg: string, argv: string[], i: number): number {
+  let key = arg.slice(2);
+  let value: string | undefined;
+  const eq = key.indexOf("=");
+  if (eq !== -1) {
+    value = key.slice(eq + 1);
+    key = key.slice(0, eq);
   }
+  const setter = FLAG_SETTERS[key];
+  if (!setter) {
+    out.unknownFlags.push(arg);
+    return i;
+  }
+  if (value === undefined) value = argv[++i];
+  if (value !== undefined) setter(out, value);
+  return i;
 }
 
 export function parseArgs(argv: string[]): ParsedArgs {
   const out: ParsedArgs = {
     command: "",
     query: "",
-    engine: "google",
+    engine: "google_light",
     num: 10,
     fields: [],
     format: "compact",
@@ -81,30 +106,13 @@ export function parseArgs(argv: string[]): ParsedArgs {
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === undefined) continue;
-
     if (arg === "-h" || arg === "--help") {
       out.help = true;
-      continue;
+    } else if (arg.startsWith("--")) {
+      i = applyLongFlag(out, arg, argv, i);
+    } else {
+      positional.push(arg);
     }
-
-    if (arg.startsWith("--")) {
-      let key = arg.slice(2);
-      let value: string | undefined;
-      const eq = key.indexOf("=");
-      if (eq !== -1) {
-        value = key.slice(eq + 1);
-        key = key.slice(0, eq);
-      }
-      if (!VALUE_FLAGS.has(key)) {
-        out.unknownFlags.push(arg);
-        continue;
-      }
-      if (value === undefined) value = argv[++i];
-      if (value !== undefined) applyFlag(out, key, value);
-      continue;
-    }
-
-    positional.push(arg);
   }
 
   out.command = positional[0] ?? "";

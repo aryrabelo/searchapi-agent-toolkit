@@ -3,13 +3,21 @@
 [![CI](https://github.com/aryrabelo/searchapi-agent-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/aryrabelo/searchapi-agent-toolkit/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Context-cheap [SearchApi](https://www.searchapi.io) search for AI agents: a CLI and a Claude Code skill, built as **complements** to SearchApi's official [MCP server](https://www.searchapi.io/docs/mcp), not replacements.
+Context-cheap [SearchApi](https://www.searchapi.io) search for AI agents: a CLI and a Claude Code skill, built as **complements** to SearchApi's official [MCP server](https://www.searchapi.io/integrations/mcp), not replacements.
 
 The idea is simple. An MCP server injects its tool schema into the model's context on every turn, whether you search or not. A CLI is a binary on `PATH` that costs nothing until you call it, and it can trim each response down to the fields you actually want. For stateless, high-frequency search inside a coding loop, that gap adds up.
 
 ## Measured: SearchApi MCP vs the `searchapi` CLI
 
-A token benchmark of the SearchApi MCP server against this CLI — standing cost per turn, discovery cost, and per-call response size on the same query — is **TBD** (to be filled once we measure against a live key). The method mirrors the dev.to write-up in [`BLOG.md`](BLOG.md); the numbers there are placeholders until then.
+Same query (`best noise cancelling headphones`, 10 results), same machine. Tokens are `chars / 4` on both sides, so trust the ratios over the absolutes. The MCP integration exposed one tool (`google_search_light`); the full method is in [`BLOG.md`](BLOG.md).
+
+| | SearchApi MCP (`google_search_light`) | `searchapi` CLI (`google_light`) |
+|---|---|---|
+| Standing cost, every turn | 218 tokens (tool schema) | ~0 (binary) + ~110 if the skill is loaded |
+| Discovery, once | via the MCP client | `--help` = 301 tokens |
+| Per call | 1,630 (server-compacted) | 1,290 compact / **417** `--fields title,link` |
+
+Two things the CLI does on purpose. First, `--fields` returns only the result rows trimmed to the keys you name, so the payload stays ~300–420 tokens **regardless of how verbose the engine is** — a full `google` SERP whose raw response is ~32k tokens still drops to 291 with `--fields title,link`. Second, it costs ~0 standing tokens when idle, where the MCP pays its schema every turn; SearchApi's MCP is one tool per engine, so that standing cost compounds as you enable more engines. The honest gap is modest — roughly 1.3x (compact) to 4x (`--fields`) per call, plus 218-vs-0 standing — not the order-of-magnitude numbers from big multi-tool end-to-end benchmarks. Pick the transport that fits the call.
 
 ## The two pieces
 
@@ -33,7 +41,7 @@ export SEARCHAPI_API_KEY=your_key
 ./dist/searchapi search "best noise cancelling headphones" --engine google --location Brazil --gl br --hl pt --fields title,link
 ```
 
-The CLI calls SearchApi's REST endpoint, `https://www.searchapi.io/api/v1/search`. The API key reads from `SEARCHAPI_API_KEY`. `--fields` projects each result down to the keys you name (e.g. `title,link`); `--format compact` (the default) drops the metadata bookkeeping blocks, `--format complete` returns the raw payload.
+The CLI calls SearchApi's REST endpoint, `https://www.searchapi.io/api/v1/search`. The API key reads from `SEARCHAPI_API_KEY`. `--fields` returns only the result rows trimmed to the keys you name (e.g. `title,link`), dropping every other block; `--format compact` (the default) drops the metadata bookkeeping blocks, `--format complete` returns the raw payload.
 
 Install the skill into Claude Code:
 

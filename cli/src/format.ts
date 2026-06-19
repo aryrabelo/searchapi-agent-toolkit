@@ -34,16 +34,15 @@ export function pick(item: Json, fields: string[]): Json {
 }
 
 /**
- * Project the named fields onto the items of every *_results array, leaving
- * non-results keys (e.g. answer_box) untouched. With no fields, or on a
- * response that has no results array, it returns the object unchanged.
+ * With fields, return only the *_results arrays, each item projected to the
+ * named keys; every other top-level key (ads, answer_box, knowledge_graph, and
+ * the heavy presentation blocks that dominate rich engines like google) is
+ * dropped. With no fields it returns the object unchanged.
  */
 export function projectFields(obj: Json, fields: string[]): Json {
   if (fields.length === 0) return obj;
-  const keys = resultsKeys(obj);
-  if (keys.length === 0) return obj;
-  const out: Json = { ...obj };
-  for (const k of keys) {
+  const out: Json = {};
+  for (const k of resultsKeys(obj)) {
     out[k] = (obj[k] as Json[]).map((item) => pick(item, fields));
   }
   return out;
