@@ -1,0 +1,196 @@
+{
+  "search_metadata": {
+    "id": "search_aBcD1234EfGh5678",
+    "status": "Success",
+    "created_at": "2026-06-18T20:14:07Z",
+    "request_time_taken": 1.42,
+    "parsing_time_taken": 0.06,
+    "total_time_taken": 1.48,
+    "request_url": "https://www.google.com/search?q=ruby+web+scraping&oq=ruby+web+scraping&gl=us&hl=en&num=10",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_aBcD1234EfGh5678.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_aBcD1234EfGh5678"
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "ruby web scraping",
+    "device": "desktop",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "num": 10
+  },
+  "search_information": {
+    "query_displayed": "ruby web scraping",
+    "total_results": 4830000,
+    "time_taken_displayed": 0.39,
+    "detected_location": "United States"
+  },
+  "answer_box": {
+    "type": "organic_result",
+    "title": "Web Scraping with Ruby - The Complete Guide",
+    "answer": "Ruby has a mature scraping ecosystem: use Nokogiri for parsing HTML/XML, HTTParty or Faraday for HTTP, and Mechanize or Ferrum/Cuprite for stateful, JavaScript-heavy sites driven through a headless Chrome.",
+    "link": "https://www.scrapingbee.com/blog/web-scraping-ruby/",
+    "displayed_link": "https://www.scrapingbee.com › blog › web-scraping-ruby",
+    "snippet": "Nokogiri parses the DOM, Mechanize keeps cookies and sessions, and Ferrum drives a real Chrome over CDP when the page needs JavaScript to render."
+  },
+  "knowledge_graph": {
+    "title": "Ruby",
+    "type": "Programming language",
+    "description": "Ruby is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity.",
+    "source": { "name": "Wikipedia", "link": "https://en.wikipedia.org/wiki/Ruby_(programming_language)" },
+    "designed_by": "Yukihiro Matsumoto",
+    "first_appeared": "1995",
+    "stable_release": "3.3.0",
+    "license": "Ruby License, GPLv2, BSD",
+    "filename_extensions": ".rb"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Web Scraping with Ruby - ScrapingBee",
+      "link": "https://www.scrapingbee.com/blog/web-scraping-ruby/",
+      "source": "ScrapingBee",
+      "domain": "www.scrapingbee.com",
+      "displayed_link": "https://www.scrapingbee.com › blog › web-scraping-ruby",
+      "snippet": "In this tutorial you will learn how to scrape the web with Ruby, parse HTML with Nokogiri, follow links with Mechanize, and render JavaScript pages with Ferrum and a headless browser.",
+      "snippet_highlighted_words": ["scrape", "Ruby", "Nokogiri", "Mechanize"],
+      "date": "2025-11-02",
+      "favicon": "https://www.google.com/s2/favicons?domain=scrapingbee.com&sz=64"
+    },
+    {
+      "position": 2,
+      "title": "GitHub - sparklemotion/nokogiri: an HTML, XML, SAX parser",
+      "link": "https://github.com/sparklemotion/nokogiri",
+      "source": "GitHub",
+      "domain": "github.com",
+      "displayed_link": "https://github.com › sparklemotion › nokogiri",
+      "snippet": "Nokogiri (鋸) makes it easy and painless to work with XML and HTML from Ruby. It provides a sensible, easy-to-understand API for reading, writing, modifying, and querying documents.",
+      "snippet_highlighted_words": ["Nokogiri", "XML", "HTML", "Ruby"],
+      "date": "2026-01-14",
+      "favicon": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+      "sitelinks": {
+        "inline": [
+          { "title": "Installation", "link": "https://nokogiri.org/tutorials/installing_nokogiri.html" },
+          { "title": "Searching a document", "link": "https://nokogiri.org/tutorials/searching_a_xml_html_document.html" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "title": "How to Scrape Websites with Ruby and Nokogiri - Scrapfly",
+      "link": "https://scrapfly.io/blog/web-scraping-with-ruby/",
+      "source": "Scrapfly",
+      "domain": "scrapfly.io",
+      "displayed_link": "https://scrapfly.io › blog › web-scraping-with-ruby",
+      "snippet": "A practical walkthrough of building a Ruby scraper: sending requests with HTTParty, selecting nodes with CSS and XPath, handling pagination, and avoiding blocks with proxies and headers.",
+      "snippet_highlighted_words": ["Ruby", "scraper", "HTTParty", "XPath"],
+      "date": "2025-09-30",
+      "favicon": "https://www.google.com/s2/favicons?domain=scrapfly.io&sz=64"
+    },
+    {
+      "position": 4,
+      "title": "Mechanize - RubyGems.org",
+      "link": "https://rubygems.org/gems/mechanize",
+      "source": "RubyGems",
+      "domain": "rubygems.org",
+      "displayed_link": "https://rubygems.org › gems › mechanize",
+      "snippet": "The Mechanize library is used for automating interaction with websites. Mechanize automatically stores and sends cookies, follows redirects, and can follow links and submit forms.",
+      "snippet_highlighted_words": ["Mechanize", "cookies", "links", "forms"],
+      "date": "2025-12-08",
+      "favicon": "https://www.google.com/s2/favicons?domain=rubygems.org&sz=64"
+    },
+    {
+      "position": 5,
+      "title": "rubycdp/ferrum: Ruby Chrome/Chromium driver - GitHub",
+      "link": "https://github.com/rubycdp/ferrum",
+      "source": "GitHub",
+      "domain": "github.com",
+      "displayed_link": "https://github.com › rubycdp › ferrum",
+      "snippet": "Ferrum is a clean and high-level Ruby API to Chrome over the Chrome DevTools Protocol. It lets you drive a real browser, take screenshots, intercept network traffic, and evaluate JavaScript.",
+      "snippet_highlighted_words": ["Ferrum", "Ruby", "Chrome", "JavaScript"],
+      "date": "2026-02-19",
+      "favicon": "https://www.google.com/s2/favicons?domain=github.com&sz=64"
+    },
+    {
+      "position": 6,
+      "title": "Web Scraping in Ruby: A Step-by-Step Tutorial - Bright Data",
+      "link": "https://brightdata.com/blog/how-tos/web-scraping-with-ruby",
+      "source": "Bright Data",
+      "domain": "brightdata.com",
+      "displayed_link": "https://brightdata.com › blog › how-tos › web-scraping-with-ruby",
+      "snippet": "Learn web scraping with Ruby from scratch. This guide covers setting up the environment, fetching pages, parsing with Nokogiri, exporting to CSV, and scaling with rotating proxies.",
+      "snippet_highlighted_words": ["web scraping", "Ruby", "Nokogiri", "proxies"],
+      "date": "2025-10-21",
+      "favicon": "https://www.google.com/s2/favicons?domain=brightdata.com&sz=64"
+    },
+    {
+      "position": 7,
+      "title": "How do I scrape a JavaScript-rendered page in Ruby? - Stack Overflow",
+      "link": "https://stackoverflow.com/questions/12345678/scrape-javascript-page-ruby",
+      "source": "Stack Overflow",
+      "domain": "stackoverflow.com",
+      "displayed_link": "https://stackoverflow.com › questions › scrape-javascript-page-ruby",
+      "snippet": "If the content is rendered by JavaScript, plain HTTParty plus Nokogiri will not see it. Use a headless browser driver such as Ferrum, Cuprite, or Selenium to let Chrome execute the scripts first.",
+      "snippet_highlighted_words": ["JavaScript", "Nokogiri", "Ferrum", "Cuprite"],
+      "date": "2025-08-11",
+      "favicon": "https://www.google.com/s2/favicons?domain=stackoverflow.com&sz=64"
+    },
+    {
+      "position": 8,
+      "title": "Kimurai - A modern web scraping framework written in Ruby",
+      "link": "https://github.com/vifreefly/kimuraframework",
+      "source": "GitHub",
+      "domain": "github.com",
+      "displayed_link": "https://github.com › vifreefly › kimuraframework",
+      "snippet": "Kimurai is a modern web scraping framework written in Ruby which works out of box with headless Chromium and Firefox, Puppeteer-style, and simple HTTP requests.",
+      "snippet_highlighted_words": ["Kimurai", "web scraping", "Ruby", "headless"],
+      "date": "2025-07-04",
+      "favicon": "https://www.google.com/s2/favicons?domain=github.com&sz=64"
+    },
+    {
+      "position": 9,
+      "title": "Ruby Web Scraping: The Ultimate Guide - ZenRows",
+      "link": "https://www.zenrows.com/blog/ruby-web-scraping",
+      "source": "ZenRows",
+      "domain": "www.zenrows.com",
+      "displayed_link": "https://www.zenrows.com › blog › ruby-web-scraping",
+      "snippet": "Master Ruby web scraping with this guide: parse HTML, handle dynamic content, bypass anti-bot protections, and export structured data, with full runnable code examples.",
+      "snippet_highlighted_words": ["Ruby", "web scraping", "anti-bot", "structured data"],
+      "date": "2025-12-29",
+      "favicon": "https://www.google.com/s2/favicons?domain=zenrows.com&sz=64"
+    },
+    {
+      "position": 10,
+      "title": "HTTParty - Makes HTTP fun again - RubyGems.org",
+      "link": "https://rubygems.org/gems/httparty",
+      "source": "RubyGems",
+      "domain": "rubygems.org",
+      "displayed_link": "https://rubygems.org › gems › httparty",
+      "snippet": "Makes HTTP fun again! HTTParty is a Ruby gem that provides a clean DSL for consuming REST services, with automatic parsing of JSON and XML responses into Ruby data structures.",
+      "snippet_highlighted_words": ["HTTParty", "Ruby", "REST", "JSON"],
+      "date": "2026-03-02",
+      "favicon": "https://www.google.com/s2/favicons?domain=rubygems.org&sz=64"
+    }
+  ],
+  "related_questions": [
+    { "question": "Is Ruby good for web scraping?", "answer": "Yes. Ruby has Nokogiri for parsing, Mechanize for stateful navigation, and Ferrum/Cuprite for JavaScript-heavy pages, which together cover most scraping needs.", "link": "https://www.scrapingbee.com/blog/web-scraping-ruby/" },
+    { "question": "What is the best Ruby gem for web scraping?", "answer": "Nokogiri is the standard for HTML/XML parsing; pair it with HTTParty or Faraday for requests, and Ferrum when you need a real browser.", "link": "https://github.com/sparklemotion/nokogiri" },
+    { "question": "How do I scrape JavaScript pages in Ruby?", "answer": "Use a headless browser driver such as Ferrum or Cuprite that controls Chrome over the DevTools Protocol so the JavaScript executes before you read the DOM.", "link": "https://github.com/rubycdp/ferrum" },
+    { "question": "Is web scraping legal?", "answer": "Scraping publicly available data is generally legal in the US, but terms of service, copyright, and rate limits still apply. Consult counsel for specific cases.", "link": "https://brightdata.com/blog/how-tos/web-scraping-with-ruby" }
+  ],
+  "related_searches": [
+    { "query": "ruby web scraping nokogiri", "link": "https://www.google.com/search?q=ruby+web+scraping+nokogiri" },
+    { "query": "ruby web scraping tutorial", "link": "https://www.google.com/search?q=ruby+web+scraping+tutorial" },
+    { "query": "ruby headless browser scraping", "link": "https://www.google.com/search?q=ruby+headless+browser+scraping" },
+    { "query": "ruby mechanize example", "link": "https://www.google.com/search?q=ruby+mechanize+example" },
+    { "query": "ferrum ruby tutorial", "link": "https://www.google.com/search?q=ferrum+ruby+tutorial" },
+    { "query": "ruby vs python web scraping", "link": "https://www.google.com/search?q=ruby+vs+python+web+scraping" },
+    { "query": "ruby scrape api json", "link": "https://www.google.com/search?q=ruby+scrape+api+json" },
+    { "query": "best ruby scraping framework", "link": "https://www.google.com/search?q=best+ruby+scraping+framework" }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=ruby+web+scraping&start=10",
+    "other_pages": { "2": "https://www.google.com/search?q=ruby+web+scraping&start=10", "3": "https://www.google.com/search?q=ruby+web+scraping&start=20" }
+  }
+}

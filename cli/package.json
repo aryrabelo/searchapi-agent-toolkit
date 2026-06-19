@@ -1,0 +1,24 @@
+{
+  "name": "searchapi-cli",
+  "version": "0.1.0",
+  "bin": {
+    "searchapi": "./src/index.ts"
+  },
+  "description": "Tiny SearchApi search CLI for AI agents, with zero runtime dependencies. Invoked via Bash, returns only the fields you ask for, to keep agent context cheap. A complement to SearchApi's official MCP server for high-frequency stateless calls.",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "bun build ./src/index.ts --compile --outfile dist/searchapi",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "start": "bun run ./src/index.ts",
+    "bench": "bun bench/bench.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "type": "module"
+}

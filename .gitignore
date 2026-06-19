@@ -1,0 +1,13 @@
+node_modules/
+cli/dist/
+*.log
+.env*
+.DS_Store
+bun.lockb
+
+# Agent / harness process state — never publish
+.claude/
+.harness-mem/
+docs/superpowers/
+BLOG.md
+PLAN.md
