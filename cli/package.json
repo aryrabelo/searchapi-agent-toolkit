@@ -4,7 +4,7 @@
   "bin": {
     "searchapi": "./src/index.ts"
   },
-  "description": "Tiny SearchApi search CLI for AI agents, with zero runtime dependencies. Invoked via Bash, returns only the fields you ask for, to keep agent context cheap. A complement to SearchApi's official MCP server for high-frequency stateless calls.",
+  "description": "Tiny SearchApi search CLI for AI agents, with one small runtime dependency (@toon-format/toon, used only for --output toon). Invoked via Bash, returns only the fields you ask for, to keep agent context cheap. A complement to SearchApi's official MCP server for high-frequency stateless calls.",
   "engines": {
     "bun": ">=1.0.0"
   },
@@ -15,6 +15,9 @@
     "typecheck": "tsc --noEmit",
     "start": "bun run ./src/index.ts",
     "bench": "bun bench/bench.ts"
+  },
+  "dependencies": {
+    "@toon-format/toon": "^2"
   },
   "devDependencies": {
     "@types/bun": "latest",

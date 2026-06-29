@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 import { parseArgs, USAGE } from "./cli";
 import { runSearch, type FetchLike } from "./search";
-import { shape } from "./format";
+import { shape, serialize } from "./format";
 
 export interface RunDeps {
   argv: string[];
@@ -44,7 +44,7 @@ export async function run(deps: RunDeps): Promise<number> {
       apiKey,
       deps.fetchImpl,
     );
-    deps.stdout(JSON.stringify(shape(raw, { format: args.format, fields: args.fields })) + "\n");
+    deps.stdout(serialize(shape(raw, { format: args.format, fields: args.fields }), args.output) + "\n");
     return 0;
   } catch (e) {
     deps.stderr(`error: ${(e as Error).message}\n`);

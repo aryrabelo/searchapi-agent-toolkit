@@ -23,7 +23,7 @@ Two things the CLI does on purpose. First, `--fields` returns only the result ro
 
 | Piece | What | When |
 |-------|------|------|
-| [`cli/`](cli/README.md) | `searchapi`, a zero-dependency Bun + TypeScript CLI that returns only the fields you ask for, as one compiled binary. | High-frequency, stateless one-shot search in a coding loop, where an always-loaded MCP schema taxes every turn. |
+| [`cli/`](cli/README.md) | `searchapi`, a Bun + TypeScript CLI that returns only the fields you ask for, as one compiled binary. One small runtime dependency (`@toon-format/toon`, MIT), used only for `--output toon`. | High-frequency, stateless one-shot search in a coding loop, where an always-loaded MCP schema taxes every turn. |
 | [`skills/searching-with-searchapi`](skills/searching-with-searchapi/SKILL.md) | A Claude Code skill: the *procedure* for searching well (engine by intent, compact vs complete, operators, pagination, dedup and cite, when not to search). Costs little until triggered. | Any agent with a SearchApi search capability that should use it well and cheaply. |
 
 MCP (or this CLI) provides the capability; the skill provides the how-to on top. Use SearchApi's MCP server for hosted, multi-client, stateful connections; use `searchapi` for cheap stateless calls; let the skill make either one easy to use correctly.
@@ -39,9 +39,12 @@ export SEARCHAPI_API_KEY=your_key
 
 # localized results: geo flags only go on the wire when set
 ./dist/searchapi search "best noise cancelling headphones" --engine google --location Brazil --gl br --hl pt --fields title,link
+
+# TOON output: lossless, fewer tokens on uniform/projected result arrays
+./dist/searchapi search "rails jobs" --engine google_jobs --fields title,link --output toon
 ```
 
-The CLI calls SearchApi's REST endpoint, `https://www.searchapi.io/api/v1/search`. The API key reads from `SEARCHAPI_API_KEY`. `--fields` returns only the result rows trimmed to the keys you name (e.g. `title,link`), dropping every other block; `--format compact` (the default) drops the metadata bookkeeping blocks, `--format complete` returns the raw payload.
+The CLI calls SearchApi's REST endpoint, `https://www.searchapi.io/api/v1/search`. The API key reads from `SEARCHAPI_API_KEY`. `--fields` returns only the result rows trimmed to the keys you name (e.g. `title,link`), dropping every other block; `--format compact` (the default) drops the metadata bookkeeping blocks, `--format complete` returns the raw payload. `--output json` (the default) emits minified JSON; `--output toon` emits the same shaped object as [TOON](https://github.com/toon-format/toon) (Token-Oriented Object Notation) — lossless and fewer tokens on uniform/projected result arrays.
 
 Install the skill into Claude Code:
 

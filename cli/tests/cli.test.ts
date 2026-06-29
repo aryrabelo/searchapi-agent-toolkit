@@ -48,6 +48,13 @@ test("invalid format is ignored, default kept", () => {
   expect(parseArgs(["search", "x", "--format", "weird"]).format).toBe("compact");
 });
 
+test("output: default json, parses toon, invalid ignored, equals form", () => {
+  expect(parseArgs(["search", "x"]).output).toBe("json");
+  expect(parseArgs(["search", "x", "--output", "toon"]).output).toBe("toon");
+  expect(parseArgs(["search", "x", "--output", "bogus"]).output).toBe("json");
+  expect(parseArgs(["search", "x", "--output=toon"]).output).toBe("toon");
+});
+
 test("unknown flag is captured, not leaked into the query", () => {
   const a = parseArgs(["search", "x", "--bogus"]);
   expect(a.unknownFlags).toEqual(["--bogus"]);

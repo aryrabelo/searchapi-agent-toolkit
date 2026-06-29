@@ -1,3 +1,5 @@
+import { encode as toonEncode } from "@toon-format/toon";
+
 // Pure result-shaping. SearchApi payloads are big; trim them before they reach the model.
 
 export const COMPACT_DROP = [
@@ -57,4 +59,9 @@ export interface ShapeOptions {
 export function shape(raw: Json, opts: ShapeOptions): Json {
   const base = opts.format === "compact" ? compact(raw) : raw;
   return projectFields(base, opts.fields);
+}
+
+/** Serialize the shaped result as minified JSON (default) or TOON. */
+export function serialize(obj: Json, output: "json" | "toon"): string {
+  return output === "toon" ? toonEncode(obj) : JSON.stringify(obj);
 }
