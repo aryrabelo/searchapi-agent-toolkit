@@ -7,6 +7,7 @@ export interface ParsedArgs {
   num: number;
   fields: string[];
   format: "compact" | "complete";
+  output: "json" | "toon";
   location?: string;
   gl?: string;
   hl?: string;
@@ -27,6 +28,7 @@ Options:
   --location SearchApi location, e.g. "Brazil" or "Austin, TX" (default: none)
   --gl       two-letter country code, e.g. br, us (default: none)
   --hl       two-letter UI language code, e.g. pt, en (default: none)
+  --output   json (default) | toon = Token-Oriented Object Notation (lossless, fewer tokens on uniform/projected arrays)
   -h, --help show this help
 
 --fields returns only the *_results arrays, each trimmed to the named keys; all
@@ -59,6 +61,9 @@ const FLAG_SETTERS: Record<string, (out: ParsedArgs, value: string) => void> = {
   },
   format: (o: ParsedArgs, v: string) => {
     if (v === "compact" || v === "complete") o.format = v;
+  },
+  output: (o: ParsedArgs, v: string) => {
+    if (v === "json" || v === "toon") o.output = v;
   },
   location: (o: ParsedArgs, v: string) => {
     o.location = v;
@@ -98,6 +103,7 @@ export function parseArgs(argv: string[]): ParsedArgs {
     num: 10,
     fields: [],
     format: "compact",
+    output: "json",
     help: false,
     unknownFlags: [],
   };
