@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "gpt-tokenizer": "^2",
     "typescript": "^5"
   },
   "type": "module"

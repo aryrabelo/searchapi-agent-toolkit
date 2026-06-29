@@ -1,0 +1,828 @@
+{
+  "search_metadata": {
+    "id": "search_JoY68Me7qNsNbNO3Mv0axRVb",
+    "status": "Success",
+    "created_at": "2026-06-28T23:59:13Z",
+    "request_time_taken": 2.13,
+    "parsing_time_taken": 0.1,
+    "total_time_taken": 2.23,
+    "request_url": "https://www.google.com/search?q=ruby+developer&oq=ruby+developer&gl=us&hl=en&udm=8&jbr=sep:0",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_JoY68Me7qNsNbNO3Mv0axRVb.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_JoY68Me7qNsNbNO3Mv0axRVb"
+  },
+  "search_parameters": {
+    "engine": "google_jobs",
+    "q": "ruby developer",
+    "hl": "en",
+    "gl": "us"
+  },
+  "search_information": {
+    "query_displayed": "ruby developer",
+    "time_taken_displayed": 0.38,
+    "detected_location": "Otero County, Colorado",
+    "has_no_results_for": false
+  },
+  "jobs": [
+    {
+      "position": 1,
+      "title": "Senior Full-Stack Engineer (Ruby on Rails)",
+      "company_name": "Wunder",
+      "location": "Boulder, CO",
+      "via": "via LinkedIn",
+      "description": "<strong>About Wunder<br><br></strong>Wunder is building a Modern Energy Company.<br><br>We were founded with one simple vision: to address the greatest crisis of our generation by accelerating the deployment of solar energy. In doing so, we help businesses, municipalities, and schools save money by delivering clean on-site power. We convert simple warehouses into electrified industrial platforms built for the future. We enable the nation’s leading commercial and industrial real estate firms to capture the benefits of solar across their properties. We align ESG goals with revenue targets, and the renewable energy assets we’re deploying today will power America’s tomorrow.<br><br>Wunder is actively developing hundreds of commercial solar projects across the country. Our team has evaluated more than 30,000 properties for solar across all 50 states to meet our customers where they are. Our customers have a national footprint and so do we. Wunder’s proprietary technology platform enables us to develop solar at scale, across a portfolio that includes everything from self-storage facilities and schools to data centers and industrial logistics facilities. Our average solar system—about 430 kilowatts in size—can offset 350,000 pounds of coal burned each year of system operation!<br><br><strong>The Role<br><br></strong>At Wunder, we're building a team of high-performing, effective, and sophisticated engineers. We come from a wide range of backgrounds, but regardless of where we come from, we all agree that the most fun we've had as engineers is when we're working on challenging problems surrounded by peers who are dependable, ambitious, and supportive.<br><br>With that in mind, we have an amazing opportunity for an experienced, intellectually curious, and creative Senior Fullstack Ruby on Rails Developer to join our fast-growing company. Like the rest of us, this person will wear many hats; you will work closely with our founders, our product team, and Wunder’s various teams of finance and solar experts. Your role, broadly speaking, will be to solve problems and push renewable energy forward. Specifically, you will work alongside our talented team of engineers to bring automation to our solar development, solar value evaluation, and loan servicing systems.<br><br>Your typical week might involve:<br><br><br><ul><li>Writing, reviewing, and maintaining code primarily written in Ruby (Rails + Hotwire)</li><li>Developing and maintaining our CI/CD pipeline which allows our team to rapidly deploy well-tested code to production multiple times per day</li><li>Solving complex problems inherent to our domain with our unique blend of Rails’ best practices, functional principles, and service-oriented design</li><li>Working with our Product team to identify high-leverage solutions to help Wunder achieve its mission</li><li>Shaping our architectural philosophy and technical direction by exploring nascent technologies or problem spaces new to Wunder</li><li>Enjoying unallocated, flexible time for deep work, collaboration, or attending to the important non-work aspects of life (the engineering team has 5 hours of “no meeting zone” per day.</li><li>Establishing the way in which our team and processes evolve as Wunder embarks on its next phase of rapid growth<br><br><br></li></ul>If you’re looking to build the next iPhone app for teenagers or the next SaaS product for agencies, this role isn’t for you. But if you obsess about your users (at Wunder, they’re often your teammates), are passionate about solving complex problems on a daily basis, and want to fight climate change, then this is the role for you!<br><br>Want even more information on what it's like being on the Software Engineering Team at Wunder? Click here for the Wunder Engineering Handbook.<br><br><strong>About You<br><br><br></strong><ul><li>You’re a Builder - You have called yourself a hacker/dev/engineer for 5+ years, during which you’ve dug deep into designing and building high-quality backend systems. Our stack includes Ruby on Rails, Hotwire, PostgreSQL, Heroku, AWS, and CircleCI. While in depth knowledge on each of these is not required, some understanding is useful. </li><li>You Know What You’re Doing - You should be excited to work on a high-output team, be challenged, and do the best work of your career.</li><li>Excited About Cleantech - You are motivated to build technology which drives our clean energy future and, ideally, you are familiar with building the systems necessary to facilitate assessment, development, and management of energy assets.</li><li>You have a Team Ethos - You thrive in a creative, inventive, fast-paced rapid-growth environment, with people who are passionate about their work and mission. You’re not just excited to work cross-functionally, you demand it.</li><li>You Believe That No Problem is Too Hard - In an industry where people are constantly stuck, we find ways to get it done. You know how to articulate and roll out solutions, recognizing there are many solutions to the same problem. You find new and effective ways to streamline and create processes to increase efficiency.<br><br><br></li></ul><strong>Some Benefits To Look Forward To<br><br></strong>Wunder provides one of the only tangible opportunities to truly save the planet - and that’s hard work! Your job impacts nearly every facet of your life, so we provide an extensive compensation and benefits package to ensure Wunder has a positive impact on your life, both personally and professionally.<br><br><strong>Salary & Equity<br><br></strong>The base salary range for this role is $190,000 - $250,000 per year, plus equity in the form of stock options. Wunder determines the successful candidate's compensation package throughout the interview process based on experience and expertise, and the final compensation package will be discussed with the candidate during the final stages of the interview process.<br><br><strong>Benefits & PTO<br><br></strong>Wunder truly cares about your happiness and well-being, so we strive to ensure our benefits offerings are of top quality. We offer the following benefits to all team members:<br><br><ul><li>100% employer-paid medical, dental & vision insurance for all team members</li><li>50% employer-paid medical, dental & vision insurance for dependents</li><li>Employer-paid short-term disability, long-term disability & life insurance</li><li>401k Matching (50% match up to 4% of your base salary)</li><li>Health Savings Account (HSA) & Dependent Care FSA</li><li>Up to 14 weeks fully paid Parental Leave for childbearing parents; 6 weeks fully paid Parental Leave for non-childbearing parents</li><li>11 paid holidays & unlimited PTO<br><br><br></li></ul><strong>Culture<br><br></strong>Wunder believes connecting with your team members is instrumental to job satisfaction and your ability to solve complex problems, so facilitating opportunities that support team cohesion is more important than ever! You’ll find our team taking coffee walks or collaborating on Zoom, while also cycling, hiking, climbing, skiing, camping, and dining all over our mile-high home: Colorado. Here are some of the ways we facilitate a flexible yet cohesive work environment:<br><br><ul><li>A big, bright, modern office located in Downtown Boulder; in-office meals and a fully stocked kitchen</li><li>Commitment to diversity, equity & inclusion through company principles, programs, and events (see below for even more details)</li><li>In-person & virtual events, team offsites, and company retreats</li><li>Annual professional development budget and unlimited book budget</li><li>And so much more!<br><br><br></li></ul>Commitment to Diversity, Equity & Inclusion (DEI)<br><br>Wunder is focused on providing a happy, productive workplace, and we’re constantly improving it! We’re committed to creating and maintaining an inclusive workplace in which all team members have an opportunity to contribute to the success of our mission. At Wunder, people are valued for their skills, experiences, and diverse perspectives, and we encourage all individuals to apply, even if they don’t check every box in the ‘About You’ section above.<br><br>Our commitment to equity is embodied in company policy, but it’s also evident every day in how we conduct business and the internal initiatives and programs we provide for our team. Here are some of the ways we strive to ensure everyone feels welcome, safe and free to be themselves at Wunder:<br><br><br><ul><li>A holistic, actionable DEI learning strategy that enables all team members to advance inclusivity in a meaningful way</li><li>Inclusive, objective recruiting processes and partnerships with diverse candidate pools & organizations</li><li>Monthly Employee Resource Groups (ERGs), events and initiatives focused on inclusivity</li><li>Equitable Compensation Principles that ensure every team member is paid fairly and equitably</li><li>An environment that values feedback, active listening, flexibility and open communication</li></ul>",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "You’re a Builder - You have called yourself a hacker/dev/engineer for 5+ years, during which you’ve dug deep into designing and building high-quality backend systems",
+            "Our stack includes Ruby on Rails, Hotwire, PostgreSQL, Heroku, AWS, and CircleCI",
+            "While in depth knowledge on each of these is not required, some understanding is useful",
+            "You Know What You’re Doing - You should be excited to work on a high-output team, be challenged, and do the best work of your career",
+            "Excited About Cleantech - You are motivated to build technology which drives our clean energy future and, ideally, you are familiar with building the systems necessary to facilitate assessment, development, and management of energy assets",
+            "You have a Team Ethos - You thrive in a creative, inventive, fast-paced rapid-growth environment, with people who are passionate about their work and mission",
+            "You Believe That No Problem is Too Hard - In an industry where people are constantly stuck, we find ways to get it done",
+            "You know how to articulate and roll out solutions, recognizing there are many solutions to the same problem",
+            "You find new and effective ways to streamline and create processes to increase efficiency",
+            "6 more items(s)"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Your job impacts nearly every facet of your life, so we provide an extensive compensation and benefits package to ensure Wunder has a positive impact on your life, both personally and professionally",
+            "Salary & Equity",
+            "The base salary range for this role is $190,000 - $250,000 per year, plus equity in the form of stock options",
+            "Wunder determines the successful candidate's compensation package throughout the interview process based on experience and expertise, and the final compensation package will be discussed with the candidate during the final stages of the interview process",
+            "Benefits & PTO",
+            "Wunder truly cares about your happiness and well-being, so we strive to ensure our benefits offerings are of top quality",
+            "100% employer-paid medical, dental & vision insurance for all team members",
+            "50% employer-paid medical, dental & vision insurance for dependents",
+            "Employer-paid short-term disability, long-term disability & life insurance",
+            "401k Matching (50% match up to 4% of your base salary)",
+            "Health Savings Account (HSA) & Dependent Care FSA",
+            "Up to 14 weeks fully paid Parental Leave for childbearing parents; 6 weeks fully paid Parental Leave for non-childbearing parents",
+            "11 paid holidays & unlimited PTO",
+            "Annual professional development budget and unlimited book budget",
+            "Monthly Employee Resource Groups (ERGs), events and initiatives focused on inclusivity",
+            "Equitable Compensation Principles that ensure every team member is paid fairly and equitably",
+            "An environment that values feedback, active listening, flexibility and open communication",
+            "14 more items(s)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Your role, broadly speaking, will be to solve problems and push renewable energy forward",
+            "Specifically, you will work alongside our talented team of engineers to bring automation to our solar development, solar value evaluation, and loan servicing systems",
+            "Writing, reviewing, and maintaining code primarily written in Ruby (Rails + Hotwire)",
+            "Developing and maintaining our CI/CD pipeline which allows our team to rapidly deploy well-tested code to production multiple times per day",
+            "Solving complex problems inherent to our domain with our unique blend of Rails’ best practices, functional principles, and service-oriented design",
+            "Working with our Product team to identify high-leverage solutions to help Wunder achieve its mission",
+            "Shaping our architectural philosophy and technical direction by exploring nascent technologies or problem spaces new to Wunder",
+            "Enjoying unallocated, flexible time for deep work, collaboration, or attending to the important non-work aspects of life (the engineering team has 5 hours of “no meeting zone” per day",
+            "Establishing the way in which our team and processes evolve as Wunder embarks on its next phase of rapid growth",
+            "6 more items(s)"
+          ]
+        }
+      ],
+      "extensions": [
+        "3 days ago",
+        "Internship",
+        "Paid time off",
+        "Dental insurance",
+        "Health insurance"
+      ],
+      "detected_extensions": {
+        "posted_at": "3 days ago",
+        "schedule": "Internship",
+        "paid_time_off": true,
+        "dental_insurance": true,
+        "health_insurance": true
+      },
+      "apply_link": "https://www.linkedin.com/jobs/view/senior-full-stack-engineer-ruby-on-rails-at-wunder-4433891793",
+      "apply_links": [
+        {
+          "link": "https://www.tealhq.com/job/senior-full-stack-engineer_7ea1aa6213702e42d173bdefee793762163a8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "tealhq.com"
+        },
+        {
+          "link": "https://wellfound.com/jobs/3127834-senior-full-stack-engineer-ruby-on-rails?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "wellfound.com"
+        },
+        {
+          "link": "https://www.ziprecruiter.com/c/Wunder/Job/Senior-Full-Stack-Engineer-(Ruby-on-Rails)/-in-Boulder,CO?jid=7b1218cd3cc994a6&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "ziprecruiter.com"
+        },
+        {
+          "link": "https://builtin.com/job/senior-full-stack-engineer-ruby-rails/9962044?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "builtin.com"
+        },
+        {
+          "link": "https://www.adzuna.com/details/5779779282?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "adzuna.com"
+        }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=XqV0fbPLJW5dnBNnAAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNsQrCMBBAce3u4nSjim1EcNFJRQUXoR0cSxqPNBrvSi6B-iX-ru3yeLzlZb9JdqiQHAe4JO_zKmrzhjNZR4gB5mVqvsAEpXZeFpDDjRsQ1MG0Y74yW4-zfRtjJzulRHxhJeroTGH4o5iw4V69uJERtbQ6YOd1xHqzXfdFR3Y5fSR6Di9HcOTkB13B6f4HORQWUpoAAAA&shmds=v1_ARwrE21zPnlqGAVTon8RkZAwhuJ3oybNXNwAgmVwLQsDIqHMPQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=XqV0fbPLJW5dnBNnAAAAAA%3D%3D",
+      "thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADgAOAMBIgACEQEDEQH/xAAbAAEAAgIDAAAAAAAAAAAAAAAABgcCAwEEBf/EACwQAAEDAwMCBQMFAAAAAAAAAAEAAgMEBREGEjETIRQVQVFhB3FyIjI0UoH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Ao1ERAREQEREBERByAScBbn0kzGNe6Nwa/JaSP3Y5wtcZAeM9h7hXZdNUuqdL2q6OoKS5WCRjaKutkrQPCVDB2MbwMs3DBB+3qUFI4OcY7rPpP4x39s91b9n+n9gvklPe7XJcX2l5eXW+SLE73sGekyTIa4HjcDnsRnPcdIa3uBu3kx0vbjQb+n5L4H9e3+vG7fj1x84QVVg5xjutzaWZ7HPawlrMbjjjPGVbl40Bp+wy1F6uslwFpYWbKCOLM7XvGRE+TJa0DjOcnI757nt27VLqfSd2ufgKS3WFrH0VBa4mAiqneO7pHkZftGST69/UIKSIwcFFlIQXnHCIMFItL6wuemxOyjMMkFQAJqepiEsUmOCWn1HuFHUQSO/azvF8rIamsqSHU/anZCOm2D8A3j78/K9U/VTVfg+h5kd+3b1+izrbfbfjP+8/Kg6IJHYNZ3ixVc9RSVJd4j+RHMOoyf8AMO5Pzz8rjVGr7lqToNrTDHBTtIhp6aIRxR55IaPUqOogIiICIiAiIgIiICIiD//Z"
+    },
+    {
+      "position": 2,
+      "title": "Ruby Developer",
+      "company_name": "Quantix",
+      "location": "Denver, CO",
+      "via": "via ZipRecruiter",
+      "description": "<div>   <div>   <p></p>   Company Description  </div>  <div>   <p>Since 2002, Quantix HealthTech has successfully delivered IT resources and solutions to companies while building a solid reputation for integrity and consistent quality. Quantix HealthTech serves the specific needs of the healthcare industry and is recognized as one of Denver's fastest growing Healthcare IT services organizations. Quantix HealthTech was recently featured in US News and World Report and Forbes.<br></p>  </div>    <div>   <p></p>   Job Description  </div>  <div>   <p>Job Title: Ruby Developer<br>    Location:  Denver, CO<br>    Type:  Contract to Hire<br>    Length:  3 Months<br><br>    Job Description:  Our client in the Denver, Colorado area is looking for a Ruby Developer to join their team on a contract to hire basis.  This person will join an existing team, and should have strong experience with Ruby and REST Based services.  This position will also interact with an Oracle database and a number of stored procedures.  Experience working with Angular or Node JS is highly desired.    <br><br>    Required Skills:<br>    1) Ruby Experience.<br>    2) Restful API services.<br>    3) Oracle.<br><br>    Desired Skills:<br>    1) Angular.<br>    2) Node JS..<br></p>  </div>    <div>   <p></p>   Qualifications  </div>  <div>   <p>Required Skills:<br>1) Ruby Experience.<br>2) Restful API services.<br>3) Oracle.<br><br>Desired Skills:<br>1) Angular.<br>2) Node JS..<br></p>  </div>    <div>   <p></p>   Additional Information  </div>  <div>   <p>All your information will be kept confidential according to EEO guidelines. If your interested, send a copy of your resume at <b>henriquez@quantixinc. com </b>or reach me at <b>303-557-4014.</b></p>  </div> </div>",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "This person will join an existing team, and should have strong experience with Ruby and REST Based services",
+            "This position will also interact with an Oracle database and a number of stored procedures",
+            "Ruby Experience",
+            "Restful API services",
+            "Oracle",
+            "Ruby Experience",
+            "Restful API services",
+            "Oracle",
+            "5 more items(s)"
+          ]
+        }
+      ],
+      "extensions": [
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "schedule": "Full-time",
+        "no_degree_mentioned": true
+      },
+      "apply_link": "https://www.ziprecruiter.com/c/Quantix/Job/Ruby-Developer/-in-Denver,CO?jid=814abef938d70f26",
+      "apply_links": [
+        {
+          "link": "https://www.builtincolorado.com/job/ruby-developer/9796549?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "builtincolorado.com"
+        },
+        {
+          "link": "https://builtin.com/job/ruby-developer/7691197?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "builtin.com"
+        },
+        {
+          "link": "https://jobs.smartrecruiters.com/InfotechSpectrum3/98926900-ruby-developer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "smartrecruiters.com"
+        },
+        {
+          "link": "https://career.io/job/ruby-developer-denver-quantix-2581265a00c288ac0f23e889e392cdbb?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "career.io"
+        },
+        {
+          "link": "https://nuguroco.live/dj-quik-discography-zip-updated?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "nuguroco.live"
+        },
+        {
+          "link": "https://opender.forum/products/lp0M5F5m?amp1aqhma&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "opender.forum"
+        },
+        {
+          "link": "http://groundsreplottingyarborough.forum/checkout/J7tfLpUW?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "groundsreplottingyarborough.forum"
+        }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=dgpu9B_X3yuxJs7xAAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXNsQrCMBAA0L27i9MtLqKJCC46Kgguoj9QknAklfQu5K4l4s-ry1tf9-lWz8m_4YIzZi5YYQs39iDoakjABFfmmHF5SqpFjtaKZBNFnQ7BBB4tE3pu9sVe_vSSXMWSnWK_P-yaKRTXi8fkSIcGA_0mmrFu4Hz_Aoh4GeZ9AAAA&shmds=v1_ARwrE23QpYAwbFPdDHSofrHQou4-HOfW40Y8hdpNVdXVyLWKlw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=dgpu9B_X3yuxJs7xAAAAAA%3D%3D",
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAk1BMVEX///////0AAC0AAC+Zp67X3N8AACoAIj7Z3+Dg6Orp7/D9/ff5+uisusIONVAAEjdDXG9GXWhHY3Ts8MW8zxTz9d6Dl6AAACUXOlB0h5FgcnwAHTpMY29QaXjp8qb5++VYaHbJ0dMAIkN8j5tleoeksbkfQFhneo66xcy0vcAAFjf09/gRM0Y4UWQAKEIpS2IAHTEAnQylAAABMElEQVRIie2Si1KDMBBFb0J4hNqCVQMFa1mbIG1K8f+/zpTOKFX6A04Okwe5ubvJAuDxeDyeuzAGyPS+njpt8bCYMWK5yrJcusksj2vg6fllRlFFuanqKJk/D163wO5t91eSWWMBet9C7JlrgGkapVmoVVMRTNlqCj/STncwehr9ENFl2ASpboGqhIlyfSws8XhTcitObUXEE/RnwatpRsMTW2moSOqBwZlzdykRMXIBQ9cuR+2c0a6yNaaFoECBuO5LjBkH5C6uKRgVEmEwMQ5DelvA3q2qIDMuqRDxAMXVYRVcjZxQnY3sggS6Vq26cabCdToOYRt+6nuwfXbMPzEaa0K6Pi4plsJN9zVNCz4JYq/vlv1cZiL/+tDsW77Zc33G1THM2N/5Rzwej+d/8QXEwxY6RIGmSQAAAABJRU5ErkJggg=="
+    },
+    {
+      "position": 3,
+      "title": "Ruby on Rails Developer (Remote)",
+      "company_name": "Govcio LLC",
+      "location": "United States",
+      "via": "via GovCIO - Careers",
+      "description": "<p style=\"margin: 12pt 0in; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">GovCIO is seeking a Ruby on Rails Backend Developer to design, build, and maintain backend services for VA.gov. This role is primarily focused on Ruby/Rails backend engineering, API development, system reliability, and integration work. You’ll collaborate closely with cross-functional teams and contribute to AI-enabled enhancements where they provide clear user value.</span></p><p style=\"margin: 12pt 0in; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\"> This is a fully remote position open to candidates within the Continental United States (CONUS).</span></p> <br><strong>Responsibilities</strong><br><br><h3 style=\"margin: 14.05pt 0in; line-height: 107%; break-after: avoid; font-size: 14pt; font-family: Calibri, sans-serif; color: #2f5496; font-weight: normal;\"><span style=\"font-size: 10pt; font-family: verdana, geneva;\"><strong><span style=\"line-height: 107%; color: black;\">Backend Development</span></strong></span></h3><ul style=\"margin-bottom: 0in; margin-top: 0px;\"><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Build and maintain backend components using Ruby on Rails, JSON controllers, Sidekiq, and other server-side tools.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Develop and optimize RESTful APIs and backend integrations.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Ensure performance, reliability, security, and compliance across all backend services.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Conduct system analysis to clarify requirements, data flows, program intent, and technical constraints.</span></li></ul><h3 style=\"margin: 14.05pt 0in; line-height: 107%; break-after: avoid; font-size: 14pt; font-family: Calibri, sans-serif; color: #2f5496; font-weight: normal;\"><span style=\"font-size: 10pt; font-family: verdana, geneva;\"><strong><span style=\"line-height: 107%; color: black;\">AI-Enabled Enhancements</span></strong></span></h3><ul style=\"margin-bottom: 0in; margin-top: 0px;\"><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Integrate AI capabilities into existing workflows with proper safeguards, observability, and monitoring.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Support operationalizing AI solutions within AWS, including Amazon Bedrock (model selection, latency, IAM, cost management, and logging).</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Contribute to RAG (Retrieval-Augmented Generation) implementation, including embedding strategy, vector search, relevance tuning, and guardrails.</span></li></ul><h3 style=\"margin: 14.05pt 0in; line-height: 107%; break-after: avoid; font-size: 14pt; font-family: Calibri, sans-serif; color: #2f5496; font-weight: normal;\"><span style=\"font-size: 10pt; font-family: verdana, geneva;\"><strong><span style=\"line-height: 107%; color: black;\">Collaboration & Delivery</span></strong></span></h3><ul style=\"margin-bottom: 0in; margin-top: 0px;\"><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Work closely with developers, product teams, and platform partners to deliver features for veteran-facing services.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Participate in Agile ceremonies, sprint planning, and code reviews.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Assist in defining system requirements, creating user stories, and estimating project timelines.</span></li></ul><h3 style=\"margin: 14.05pt 0in; line-height: 107%; break-after: avoid; font-size: 14pt; font-family: Calibri, sans-serif; color: #2f5496; font-weight: normal;\"><span style=\"font-size: 10pt; font-family: verdana, geneva;\"><strong><span style=\"line-height: 107%; color: black;\">Quality, Documentation & Testing</span></strong></span></h3><ul style=\"margin-bottom: 0in; margin-top: 0px;\"><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Prepare documentation such as reports, operational procedures, and maintenance manuals.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Participate in integration testing and ensure seamless system functionality.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Maintain proactive communication with internal and external stakeholders.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Ensure all deliverables meet contract, quality, and security standards.</span></li></ul> <br><strong>Qualifications</strong><br><br><p><strong><span style=\"font-size: 10pt; font-family: verdana, geneva;\">Required Skills and Experience</span></strong></p><ul><li><span style=\"font-size: 10pt; font-family: verdana, geneva;\">Bachelor's  (or commensurate experience)</span></li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">5–8 years of professional software development experience.</span></li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Proven experience developing with Ruby on Rails and managing backend systems.</span></li><li>Strong analytical skills and experience with RSpec.</li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Ability to work independently in a remote environment.</span></li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Experience with Agile/Scrum methodologies.</span></li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Knowledge of the software development lifecycle and version-control/project tools (Jira, GitHub, Confluence, etc.).</span></li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">AI integration experience (LLM-powered workflows, agents, automations).</span></li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">RAG experience (chunking, embeddings, vector search, relevance evaluation).</span></li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">MCP (Model Context Protocol) or equivalent tool/agent integration experience.</span></li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">AWS Bedrock experience (model operations, prompt management, security, monitoring).</span></li><li><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Must be a U.S. citizen or legally authorized to work in the U.S.</span></li></ul><p> </p><p><span style=\"font-size: 10pt; font-family: verdana, geneva;\"><strong>Clearance Required</strong> </span></p><ul><li><span style=\"font-size: 10pt; font-family: verdana, geneva;\">Ability to obtain and maintain a Suitability/Public Trust</span></li></ul><p style=\"margin: 0px;\"><br /><strong><span style=\"font-size: 10pt; font-family: verdana, geneva;\">Preferred Skills and Experience</span></strong></p><ul><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Experience working with the VA or other federal agencies.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Familiarity with VA.gov, its ecosystem, and federal processes.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Experience with government cloud hosting.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Expertise in managing APIs within VA networks.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Experience with systems such as CorpDB, MPI, BDN, VBMS.</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Experience deploying AI features in privacy/compliance-heavy environments (PII handling, redaction, rate limiting, incident response).</span></li><li style=\"margin: 0in 0in 0in 0px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"color: black; font-size: 10pt; font-family: verdana, geneva;\">Exposure to modernization or replatforming efforts.</span></li><li><span style=\"font-size: 10pt; font-family: verdana, geneva;\">General awareness of responsible automation and VA modernization priorities, including emerging AI‑supported development tools.</span></li><li><span style=\"font-size: 10pt; font-family: verdana, geneva;\">Interest in learning or leveraging modern development accelerators, including AI‑assisted tooling where appropriate.</span></li></ul> <br><strong>Posted Salary Range</strong><br><br>USD $90,000.00 - USD $100,000.00 /Yr.",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Required Skills and Experience",
+            "Bachelor's (or commensurate experience)",
+            "5–8 years of professional software development experience",
+            "Proven experience developing with Ruby on Rails and managing backend systems",
+            "Strong analytical skills and experience with RSpec",
+            "Ability to work independently in a remote environment",
+            "Experience with Agile/Scrum methodologies",
+            "Knowledge of the software development lifecycle and version-control/project tools (Jira, GitHub, Confluence, etc.)",
+            "AI integration experience (LLM-powered workflows, agents, automations)",
+            "RAG experience (chunking, embeddings, vector search, relevance evaluation)",
+            "MCP (Model Context Protocol) or equivalent tool/agent integration experience",
+            "AWS Bedrock experience (model operations, prompt management, security, monitoring)",
+            "Must be a U.S. citizen or legally authorized to work in the U.S",
+            "Clearance Required",
+            "Ability to obtain and maintain a Suitability/Public Trust",
+            "12 more items(s)"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "USD $90,000.00 - USD $100,000.00 /Yr"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This role is primarily focused on Ruby/Rails backend engineering, API development, system reliability, and integration work",
+            "You’ll collaborate closely with cross-functional teams and contribute to AI-enabled enhancements where they provide clear user value",
+            "Backend Development",
+            "Build and maintain backend components using Ruby on Rails, JSON controllers, Sidekiq, and other server-side tools",
+            "Develop and optimize RESTful APIs and backend integrations",
+            "Ensure performance, reliability, security, and compliance across all backend services",
+            "Conduct system analysis to clarify requirements, data flows, program intent, and technical constraints",
+            "AI-Enabled Enhancements",
+            "Integrate AI capabilities into existing workflows with proper safeguards, observability, and monitoring",
+            "Support operationalizing AI solutions within AWS, including Amazon Bedrock (model selection, latency, IAM, cost management, and logging)",
+            "Contribute to RAG (Retrieval-Augmented Generation) implementation, including embedding strategy, vector search, relevance tuning, and guardrails",
+            "Collaboration & Delivery",
+            "Work closely with developers, product teams, and platform partners to deliver features for veteran-facing services",
+            "Participate in Agile ceremonies, sprint planning, and code reviews",
+            "Assist in defining system requirements, creating user stories, and estimating project timelines",
+            "Quality, Documentation & Testing",
+            "Prepare documentation such as reports, operational procedures, and maintenance manuals",
+            "Participate in integration testing and ensure seamless system functionality",
+            "Maintain proactive communication with internal and external stakeholders",
+            "Ensure all deliverables meet contract, quality, and security standards",
+            "17 more items(s)"
+          ]
+        }
+      ],
+      "extensions": [
+        "Full-time"
+      ],
+      "detected_extensions": {
+        "schedule": "Full-time"
+      },
+      "apply_link": "https://careers.govcio.com/careers-home/jobs/7735?lang=en-us",
+      "apply_links": [
+        {
+          "link": "https://www.monster.com/job-openings/ruby-on-rails-developer-remote-olympia-wa--685288a0-1614-44e1-b79d-4d7659300aff?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "monster.com"
+        },
+        {
+          "link": "https://builtin.com/job/ruby-rails-developer-remote/8143270?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "builtin.com"
+        },
+        {
+          "link": "https://www.tealhq.com/job/ruby-on-rails-developer_7ea1afe589dad6ef67d8736d95fe3413bd02c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "tealhq.com"
+        },
+        {
+          "link": "https://bebee.com/us/jobs/ruby-on-rails-developer-remote-payreview--lensa-7428_2f0c57f9109b667e701475f7b6122eb0fbd8ec9b9551dba72e9425f1ac5834d7?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "bebee.com"
+        },
+        {
+          "link": "https://lensa.com/job-v1/govcio/remote/ruby-on-rails-developer/69df0968215f92da8c4d3fb75ed60156?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "lensa.com"
+        },
+        {
+          "link": "https://careersprint.7f.liveblog365.com/job/2329632?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "liveblog365.com"
+        },
+        {
+          "link": "https://1.blipforge.fast-page.org/job/2329632?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "fast-page.org"
+        }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=0Gxx5JYVzjnLFKB0AAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBCAYVz7CLrcqIKNCCLUUaEgnSLOJYlHGklzoXeW-hy-sHb5p4-_-C6Kk37bD1ACbUJkuOKIkTIOsNbYk-AGdnAjC4xmcN0MayIfcXnuRDJXSjHH0rMYCa501CtKaGlSL7I8p-XODJijEWwPx_1U5uS3q5pGFwia5gIhwSMFwSfc_xPkH8rEhuCWAAAA&shmds=v1_ARwrE236JZr6Spu8alo-D88omL3bXvudS7hTeAwCzpJoYLyzRg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=0Gxx5JYVzjnLFKB0AAAAAA%3D%3D",
+      "thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADgAOAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABgQFBwIDAf/EADUQAAEDAwMBBQUGBwAAAAAAAAECAwQABREGEjEhEyJBUWEHFHGBkSMkMkKCknKhsbLB0eH/xAAZAQACAwEAAAAAAAAAAAAAAAACBAEDBQD/xAAmEQABBAEDAwQDAAAAAAAAAAABAAIDEQQhMUESUWETFCKRBXHR/9oADAMBAAIRAxEAPwDcaKKjOzIiVlpySwFnoUKcAP0qQLUFwG6+R7jCkulqPLYdcHKEOAkfKuLrc41qi+8SyoI3BI2pySTSFftLybasyrdueig7klB77X/PUVPsd2RqCC5ZbsvLq0/YveKiOv1HPrTxxGdIkY6289wshv5GXrMMjel/HYpzgzY8+OmREcDjSuCP6HyNSKzjTD8mx6jNuk91LquzWnw3flUPj0+tMuo9Y27T11tlumpdU7PXtSpABDQyAFK68ZPh5GqcjH9N9N1B1H6TeFl+4i6nCiDRHlMVFFFLJ1cuJ3IUkEjIxkcis9f0JcAo9jKjuDzWVJJ+PQ0y631M1pSxLuLjRecUsNMNZxvWQSMnwGASfhWNNal13rKcpi2ypXU9W4P2LbQ9VjqPmqnMWSWO3MNBIZuNBkUJASR2WhRLRqexqC4YDrY/E0hwKSf0nH8utTHLdHvf3qC2q23lkhamVgpyQeceWfzD51Q2/RlytTSZuq9eToaeShmepKc+q3Dg/tpqeubJ0q9MsUp6aGhhEt0KWSMgKUlRHeAGeo6VYchz3iqs8jT77pb2McUZsktGtHX65BXy52524zrJcewU0+HUpkJx+Hb3uvwKVDPqKzHWzjmpvaw1AiZX2TzURJSeAk7nD+nK8/w0+aKulymTJLD8lxxnsSrtHO92asjByfn09KpnblpD2de8O251V4vr2d61PBa8k5O9QG1Az1IAyenQ10gfG/0zqQNK8o8R0c0ZlboHHW/Gi1aiqPRd8d1HpyLdH4vuq3t2WwSR0URkE+BxmikCKNFagNi1ZXG3QrpGMa5RGJTBIV2bzYWnI4ODSB7RdZs6Pjt2TTrDDMxSN3cbARGQeCE8bj4Dw5PhnSaT7r7OrJd9TLvlw94eWvbvjKWOyUUgAEjGeAOmcGjjLQflsheHEfHdZ9oTRz+pX1al1e845b0ZWkynDmQB1ySeGx19D8OX/T+rUXx25SLaylqx2tvYlZThUheM9B+VASB05O4cYxVH7cLo7AsEG1Rfs25q1BzaMDs0Ad34EqT8hUT2bRltey67OgH7xIdWD5pCUJP9pq/p9QBzuTSWe/0w4N4BKcLleWIlqhzG4LL9vlja+2EgYJH0PCgQaqbbp3QN6mBce0MokJG7sMLbT+wHYa8NILTco0uxSsllxBdbUOUKBGf8H6+dXmnNJrtVwMuRJQ6UpKWwgEc+J/1V8sUUQc1xIcNvIWfjZGTO5j2AFh38Eb/1M7LbbLSG2kJQ2gBKUJGAkDgAUV3RWatxFFFFcuVXqDT9r1FFTGvERMhpCtye8pKknzCkkEVJgW2Hbrc3b4UdDURtGxLQ6jHjzzn15ooqbOyigvC22S32txbkKMG1r6FWSTjyGeBVlRRUuc5xtxtCyNsY6WCgiiiihRr/2Q=="
+    },
+    {
+      "position": 4,
+      "title": "Ruby on Rails Developer",
+      "company_name": "NAVA Software Solutions",
+      "location": "Denver, CO",
+      "via": "via ZipRecruiter",
+      "description": "<b>NAVA Software solutions is looking for a Ruby on Rails Developer.</b>\n<br>\n<br><b>Details:</b>\n<br>\n<br><b>Ruby and Rails Developer</b>\n<br>\n<br><b>Location: 100% Remote </b>\n<br>\n<br><b>Duration: 12 months </b>\n<br>\n<br><b>Job Description:</b>\n<br>\n<br>\nA Software Engineer at Client works on the development team to build new features and maintain the Travelers Haven product. This role involves delivering high value cards and participating in design and ideation for new work. The ideal candidate loves development, is capable in our tech stack (particularly Ruby on Rails, Reactjs, Postgresql), and has a habit of constant learning.\n<br>\n<ul>\n <li>The candidate exhibits is highly collaborative in a team setting, whether diving into technical work or pairing with other team members regularly:We ship code daily to our production, staging, and continuous integration environments.</li>\n <li>Test results, deployments, and production monitoring results are posted to our chat channels.</li>\n <li>We combine Kanban with biweekly retrospectives and regular refinement sessions.</li>\n <li>We play to each team member's strengths while encouraging professional development in weaker areas. You'll use the skills you're best at the most but be expected to jump in anywhere as needed.</li>\n <li>We currently use Macs for development, but if you prefer Windows or Linux that's good too.</li>\n <li>We offer flexible, remote-friendly working arrangements and are a highly collaborative team. The right candidate wants to be a go-to resource for their areas of highest knowledge, share what they know, and learn from teammates.</li>\n</ul>\n<br><b>Essential Functions</b>\n<br>\n<ul>\n <li>Work with product to transform user stories (cards) into working product.</li>\n <li>Collaborate with other engineers to create features and pay down technical debt.</li>\n <li>Write clean code.</li>\n <li>Write tests that prove your code works.</li>\n <li>Proactively identify process and product improvements, collaborate with team on implementation.</li>\n</ul>\n<br><b>Competency:</b>\n<br>\n<ul>\n <li>Strong development skills.</li>\n <li>In-depth understanding of and practical experience with testing strategies.</li>\n <li>Strong computer science problem-solving ability. You must know how to write your own algorithms and go beyond the framework-built ins. Good written and verbal communication skills.</li>\n</ul>\n<br><b>Preferred Education & Experience:</b>\n<br>\n<ul>\n <li>3+ years of web development</li>\n <li>2+ years production experience with our tech stack.</li>\n <li>A passion for giving users a polished, highly usable experience.</li>\n <li>Experience with high volume, publicly facing production site.</li>\n <li>Ruby on Rails</li>\n <li>Heroku and AWS</li>\n <li>Postgres/SQL</li>\n <li>RESTful APIs</li>\n <li>Sidekiq/RabbitMQ</li>\n <li>RSpec and TDD</li>\n <li>HTML/CSS/JS (AngularJS, ReactJS)</li>\n</ul>",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "We currently use Macs for development, but if you prefer Windows or Linux that's good too",
+            "We offer flexible, remote-friendly working arrangements and are a highly collaborative team",
+            "The right candidate wants to be a go-to resource for their areas of highest knowledge, share what they know, and learn from teammates",
+            "Strong development skills",
+            "In-depth understanding of and practical experience with testing strategies",
+            "Strong computer science problem-solving ability",
+            "You must know how to write your own algorithms and go beyond the framework-built ins",
+            "Good written and verbal communication skills",
+            "5 more items(s)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "A Software Engineer at Client works on the development team to build new features and maintain the Travelers Haven product",
+            "This role involves delivering high value cards and participating in design and ideation for new work",
+            "The ideal candidate loves development, is capable in our tech stack (particularly Ruby on Rails, Reactjs, Postgresql), and has a habit of constant learning",
+            "The candidate exhibits is highly collaborative in a team setting, whether diving into technical work or pairing with other team members regularly:We ship code daily to our production, staging, and continuous integration environments",
+            "Test results, deployments, and production monitoring results are posted to our chat channels",
+            "We combine Kanban with biweekly retrospectives and regular refinement sessions",
+            "We play to each team member's strengths while encouraging professional development in weaker areas",
+            "You'll use the skills you're best at the most but be expected to jump in anywhere as needed",
+            "Work with product to transform user stories (cards) into working product",
+            "Collaborate with other engineers to create features and pay down technical debt",
+            "Write clean code",
+            "Write tests that prove your code works",
+            "Proactively identify process and product improvements, collaborate with team on implementation",
+            "10 more items(s)"
+          ]
+        }
+      ],
+      "extensions": [
+        "3 days ago",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "posted_at": "3 days ago",
+        "schedule": "Full-time",
+        "no_degree_mentioned": true
+      },
+      "apply_link": "https://www.ziprecruiter.com/c/NAVA-Software-Solutions/Job/Ruby-on-Rails-Developer/-in-Denver,CO?jid=caf589a6acad90f7",
+      "apply_links": [
+        {
+          "link": "https://lensa.com/job-v1/nava-software-solutions/denver-co/ruby-on-rails-developer/13a189898e7b7d0f7a576fde8cc42231?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "lensa.com"
+        }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=m3SctKmeqlwVQtL6AAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNsQrCMBBAce0nON3iIpqI4KJTURAcFCq4lqScTSTmQu5a63_4wbbL48EbXvGbFarq7BcoQmV8YDhhj4ESZljDhSwwmty4qZ-J2oDzgxNJvNeaOaiWxYhvVENvTREtDfpFlifU7EzGFIxgvd1tBpViu1xcy0cJd3rKZ4yjhE48RQYfx3PsMa_gePsDM2c-qJcAAAA&shmds=v1_ARwrE23hCb32pLjOwq3PsuAoSkwVx-bFpWjjqn8uZ0n1TUXiTg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=m3SctKmeqlwVQtL6AAAAAA%3D%3D",
+      "thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADgAOAMBIgACEQEDEQH/xAAbAAEAAgIDAAAAAAAAAAAAAAAABgcBAwIEBf/EAC4QAAECBQMDAgQHAAAAAAAAAAECAwAEBQYREiExBxNBUXEUQoGRFSIyYWOS0f/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAABURIR/9oADAMBAAIRAxEAPwC8YQhAIQhAIQhAIQhAR1y9aE1dQtl6aU3U1Y0oU2QlRKdQAVxnH+RtVdtITdabYLrn4opGsI7Z0406v1ccCKWv6gzdxdYKrKU19TM81KImJcp2KnENJISDkYJ8HwcRjp/XZq4uslOnqiyWZ1MqtmYSRglaGVJJx4zjOPEBcN2X1Q7Rfl2a04+2qYQVNlDJWCAcHceePvG2tXlRaNQZSuTjzpp03o7TrTSlZC06kkjkbDzFa1+RR1M6rTVIccV+FUSUcbUpGcd47HfwdZHv2jHPp6y5c/T6v2LUwEz9MUtlGs50nUSj+riSPbEBbFUrUhS6M9WJx8JkWmg6XRvlJxjHrnIx7x4s51AoMlbUncMw5Mpp04522l/Dq1E/m5HIH5TiKSauOoXPalA6foDqJ3474eYUUnZlBGjI9E5OR47Q9YmnUplqr3Ba3TqmjRKtlDswEn9DaEkAe4QFn6pgLQtyvU65KU3U6S8XZZwqSCUlJBBwQQeIxFa9L1KtK/7hst0FMq6szchqVtjbYZ5JQU5P8ZhATNVBkGLvfuJunPKqSkJa73cXpUkpxsnGAdgPTfJIjUm16axci7pYpK01ZSTnS+QFKI0Z08bg5J+vMS/AjOIvsxjm6iFvUaTtgzblHo8yHJ5aXX3XXStazgncnfbP3UY3SVCp8nXJm5pWnPN1ObPZmAFqAUnIGrTx8oOfcxKMCGBF9mHN1C6datFkLjduRmjOt1N1a1KUCtSUlWAtQTjAOFK453xzHZlKHJydxzlyJpjoqk02G3HVOrWAnDewSBtxjYfKfUxK8CGInsxebqJztEkqlcNPrk3SphupSag20826RhOVc42IG/PhX7wiWYEIlpJdZhCEGiEIQCEIQCEIQH//2Q=="
+    },
+    {
+      "position": 5,
+      "title": "Senior Ruby on Rails Developer",
+      "company_name": "Delta Systems",
+      "location": "Anywhere",
+      "via": "via Glassdoor",
+      "description": "<p><b>Job description:</b></p><p>We are currently seeking a talented Senior Ruby on Rails developer who enjoys learning new technologies, solving challenging problems, and building quality software.</p><p>In this role, you will have the opportunity to work with a small team of highly experienced developers to design, build, launch, and maintain web applications for a variety of awesome clients across lots of different industries. You will be invited and expected to contribute your ideas, to participate in our agile process, to be willing to learn new skills, to step outside your comfort zone, and -- of course -- to write amazing code.</p><p><b>Job Location:</b></p><p>Fully Remote. Our team has had remote workers since 2012 and has been fully remote since 2019. We have employees in MO, AZ, CO, NM. MT, NC, MI, ME, OR, IA, IL, etc. with clients scattered across the US.</p><p><b>Responsibilities:</b></p><ul><li>Write amazing code.</li><li>Document your amazing code.</li><li>Test your amazing code.</li><li>Peer review the amazing code that other team members write.</li><li>Participate via webcam in our regular stand-up and sprint planning meetings.</li><li>Maintain regular hours and accurately track your time and work.</li><li>Take a self-directed approach to learning new skills and solving problems</li><li>Remain knowledgeable about security issues.</li><li>Request support from and provide support to other team members.</li><li>Control, meet, and exceed expectations.</li></ul><p><b>Required Experience/Skills:</b></p><ul><li>5+ years of experience developing web applications in Ruby on Rails.</li><li>Excellent proficiency with CSS / SASS / LESS</li><li>Excellent proficiency with modern Javascript</li><li>Excellent proficiency in git</li><li>Excellent proficiency in Claude / Codex</li><li>Strong attention to detail</li><li>Empathy for users</li><li>Very strong written and verbal communication skills</li><li>Comfort with the Unix command line.</li><li>Fluent in English and legally allowed to work in the United States</li></ul><p><b>Desirable Experience/Skills:</b></p><ul><li>Bachelor’s degree in Computer Science or a related field</li><li>Experience with React and Angular</li><li>Experience with Docker</li><li>Fluency with AWS services</li><li>Passion for creating amazing visual interfaces.</li><li>Proficiency with SQL and database fundamentals</li><li>Experience with other modern web frameworks (Django, NodeJS/Express, Laravel)</li></ul><p><b>Benefits:</b></p><ul><li>Paid by the hour</li><li>Health Insurance</li><li>Dental and Vision</li><li>Retirement plan</li><li>Paid time off and holidays</li><li>Unpaid time off</li><li>Flexible Schedule</li></ul><p><b>Compensation:</b></p><ul><li>$125,000 - $165,000 including regular bonus opportunities</li></ul><p>Delta Systems is an Equal Opportunity Employer and does not discriminate against applicants based on race, religion, color, disability, medical condition, legally protected genetic information, national origin, gender, sexual orientation, marital status, gender identity or expression, sex (including pregnancy, childbirth or related medical conditions), age, veteran status or other legally protected characteristics.</p><p>Delta Systems reserves the right to change or modify job duties and assignments at any time. The above job description is not all encompassing. Position functions and qualifications may vary depending on business necessity.</p><p>Job Type: Full-time</p><p>Pay: $125,000.00 - $165,000.00 per year</p><p>Benefits:</p><ul><li>401(k)</li><li>Dental insurance</li><li>Health insurance</li><li>Paid time off</li><li>Vision insurance</li></ul><p>Application Question(s):</p><ul><li>Do you speak fluent English (C1-2/Native)</li><li>Are you legally allowed to work in the United States?</li><li>How many years of experience do you have using Ruby on Rails?</li><li>How many years of experience do you have managing or leading a development team?</li></ul><p>Work Location: Remote</p>",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "5+ years of experience developing web applications in Ruby on Rails",
+            "Excellent proficiency with CSS / SASS / LESS",
+            "Excellent proficiency with modern Javascript",
+            "Excellent proficiency in git",
+            "Excellent proficiency in Claude / Codex",
+            "Strong attention to detail",
+            "Empathy for users",
+            "Very strong written and verbal communication skills",
+            "Comfort with the Unix command line",
+            "Fluent in English and legally allowed to work in the United States",
+            "Bachelor’s degree in Computer Science or a related field",
+            "Experience with React and Angular",
+            "Experience with Docker",
+            "Fluency with AWS services",
+            "Passion for creating amazing visual interfaces",
+            "Proficiency with SQL and database fundamentals",
+            "Experience with other modern web frameworks (Django, NodeJS/Express, Laravel)",
+            "Do you speak fluent English (C1-2/Native)",
+            "Are you legally allowed to work in the United States?",
+            "16 more items(s)"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Fully Remote",
+            "Paid by the hour",
+            "Health Insurance",
+            "Dental and Vision",
+            "Retirement plan",
+            "Paid time off and holidays",
+            "Unpaid time off",
+            "Flexible Schedule",
+            "$125,000 - $165,000 including regular bonus opportunities",
+            "Pay: $125,000.00 - $165,000.00 per year",
+            "401(k)",
+            "Dental insurance",
+            "Health insurance",
+            "Paid time off",
+            "Vision insurance",
+            "12 more items(s)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "In this role, you will have the opportunity to work with a small team of highly experienced developers to design, build, launch, and maintain web applications for a variety of awesome clients across lots of different industries",
+            "You will be invited and expected to contribute your ideas, to participate in our agile process, to be willing to learn new skills, to step outside your comfort zone, and -- of course -- to write amazing code",
+            "Write amazing code",
+            "Document your amazing code",
+            "Test your amazing code",
+            "Peer review the amazing code that other team members write",
+            "Participate via webcam in our regular stand-up and sprint planning meetings",
+            "Maintain regular hours and accurately track your time and work",
+            "Take a self-directed approach to learning new skills and solving problems",
+            "Remain knowledgeable about security issues",
+            "Request support from and provide support to other team members",
+            "Control, meet, and exceed expectations",
+            "9 more items(s)"
+          ]
+        }
+      ],
+      "extensions": [
+        "6 days ago",
+        "125K–165K a year",
+        "Work from home",
+        "Full-time",
+        "Health insurance",
+        "Paid time off",
+        "Dental insurance"
+      ],
+      "detected_extensions": {
+        "posted_at": "6 days ago",
+        "salary": "125K–165K a year",
+        "work_from_home": true,
+        "schedule": "Full-time",
+        "health_insurance": true,
+        "paid_time_off": true,
+        "dental_insurance": true
+      },
+      "apply_link": "https://www.glassdoor.com/job-listing/senior-ruby-on-rails-developer-delta-systems-JV_KO0,30_KE31,44.htm?jl=1010177295486",
+      "apply_links": [
+        {
+          "link": "https://builtin.com/job/senior-ruby-rails-developer/6877278?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "builtin.com"
+        },
+        {
+          "link": "https://www.jobleads.com/us/job/senior-ruby-on-rails-developer--united-states--ebdb06e0c6aa7a210977422e062c9501d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "jobleads.com"
+        },
+        {
+          "link": "https://bebee.com/us/jobs/senior-ruby-on-rails-developer-jobs-via-dice--theirstack-680005479?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "bebee.com"
+        },
+        {
+          "link": "https://talents.vaia.com/companies/gamestop/senior-ruby-on-rails-developer-24870991/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "vaia.com"
+        },
+        {
+          "link": "https://talents.studysmarter.co.uk/companies/evantis-technology/hampshire-portsmouth/senior-ruby-on-rails-developer-36114789/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "studysmarter.co.uk"
+        },
+        {
+          "link": "https://lensa.com/job-v1/my3tech-inc/remote/senior-ruby-on-rails-developer/eb15decbfc35bd3ce66999d69a2267bf?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "lensa.com"
+        },
+        {
+          "link": "https://www.mysmartpros.com/tuition/job/senior-ruby-on-rails-developer-b96501e1/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "mysmartpros.com"
+        }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=4vH3G6wN2LxklEVXAAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBRGYVz7CA5yZ8FGhC66FgqOLc4lqT9tJM0NuVdp38MH1i5n-eAU311RdYieM7VvtxJHaq0PQjU-CJyQ6UR3diSweZg2b5jHgP1tUk1yNUYklKOoVT-UA8-GIxwv5sVOtvQy2YwUrKK_VOelTHE8HmoEtdStopiFfKRH9Iondf8P5AelPQQxlwAAAA&shmds=v1_ARwrE21oVcwpIMCEv7bf2FWgRlT-82MgBami3ytwIYxQLH-yag&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=4vH3G6wN2LxklEVXAAAAAA%3D%3D"
+    },
+    {
+      "position": 6,
+      "title": "Web Developer - Ruby on Rails",
+      "company_name": "BioZyme Inc",
+      "location": "Anywhere",
+      "via": "via Indeed",
+      "description": "<div>\n <p><b>Purpose:</b></p>\n <p>The Web Developer - Ruby on Rails should have the ability to manage agile teams in a fast-paced, timeline driven environment, have outstanding verbal and written communication skills, multi-task, problem solve and display a high level of efficiency and productivity by prioritizing tasks and adapting in a fast-paced environment. They must be a proactive and resourceful person who achieves with minimal oversight, while performing as a team player with the ability and desire to become an integral part of a fast-paced organization.</p>\n <p><b> Role Accountabilities:</b></p>\n <ul>\n  <li>Develop web applications using the Ruby on Rails web application framework</li>\n  <li>Participate in internal company projects in support of Company needs</li>\n  <li>Maintain a thorough understanding of the philosophy and design of Ruby on Rails</li>\n  <li>Ensure integrity and zero loss of data stored in the BackOffice application.</li>\n  <li>Collaborate with product owners and developers to further the value proposition of all BioZyme Ruby applications</li>\n  <li>Meets organizational timelines for prioritized projects</li>\n  <li>Development and delivery of features and functionality that quickly impact the business</li>\n  <li>Maintain and monitor application environments (servers), preventing downtime and achieving desired performance</li>\n  <li>Develop new functionality or update existing functionality to the BackOffice as assigned</li>\n  <li>Work with team members to develop and maintain interconnectivity between systems</li>\n  <li>Manages technical debt and keeps applications up to date</li>\n  <li>Takes ownership of financial actions and decisions ensuring awareness of how affect the company’s finances. This could involve understanding the costs associated with tasks, the time of work, or the impact of waste and inefficiencies.</li>\n  <li>Performs other duties as assigned</li>\n </ul>\n <p><b> Qualifications:</b></p>\n <p><b> Required Education: </b>Bachelor's degree in computer science or related discipline</p>\n <p><b> Required Experience:</b></p>\n <ul>\n  <li>3-5 years general programming experience</li>\n  <li>Minimum 1 year of Ruby on Rails programming experience</li>\n </ul>\n <p><b> Skills:</b></p>\n <ul>\n  <li>Problem Solving Skills, Strong Communication Skills, Planning & Organizational Skills Strong technical skills and understanding of digital media</li>\n  <li>Exemplary attention to detail, leadership, organizational, multitasking, problem solving, interpersonal, communication and analytical skills</li>\n  <li>Must have demonstrated ability to develop and leverage collaborative relationships</li>\n  <li>Uncompromising integrity</li>\n  <li>Ability to respect and follow direction of superior</li>\n  <li>Strong computer skills to assist in development and support of critical software tools</li>\n </ul>\n</div>",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "The Web Developer - Ruby on Rails should have the ability to manage agile teams in a fast-paced, timeline driven environment, have outstanding verbal and written communication skills, multi-task, problem solve and display a high level of efficiency and productivity by prioritizing tasks and adapting in a fast-paced environment",
+            "They must be a proactive and resourceful person who achieves with minimal oversight, while performing as a team player with the ability and desire to become an integral part of a fast-paced organization",
+            "Required Education: Bachelor's degree in computer science or related discipline",
+            "3-5 years general programming experience",
+            "Minimum 1 year of Ruby on Rails programming experience",
+            "Problem Solving Skills, Strong Communication Skills, Planning & Organizational Skills Strong technical skills and understanding of digital media",
+            "Exemplary attention to detail, leadership, organizational, multitasking, problem solving, interpersonal, communication and analytical skills",
+            "Must have demonstrated ability to develop and leverage collaborative relationships",
+            "Uncompromising integrity",
+            "Ability to respect and follow direction of superior",
+            "Strong computer skills to assist in development and support of critical software tools",
+            "8 more items(s)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Develop web applications using the Ruby on Rails web application framework",
+            "Participate in internal company projects in support of Company needs",
+            "Maintain a thorough understanding of the philosophy and design of Ruby on Rails",
+            "Ensure integrity and zero loss of data stored in the BackOffice application",
+            "Collaborate with product owners and developers to further the value proposition of all BioZyme Ruby applications",
+            "Meets organizational timelines for prioritized projects",
+            "Development and delivery of features and functionality that quickly impact the business",
+            "Maintain and monitor application environments (servers), preventing downtime and achieving desired performance",
+            "Develop new functionality or update existing functionality to the BackOffice as assigned",
+            "Work with team members to develop and maintain interconnectivity between systems",
+            "Manages technical debt and keeps applications up to date",
+            "Takes ownership of financial actions and decisions ensuring awareness of how affect the company’s finances",
+            "This could involve understanding the costs associated with tasks, the time of work, or the impact of waste and inefficiencies",
+            "Performs other duties as assigned",
+            "11 more items(s)"
+          ]
+        }
+      ],
+      "extensions": [
+        "Work from home",
+        "Full-time"
+      ],
+      "detected_extensions": {
+        "work_from_home": true,
+        "schedule": "Full-time"
+      },
+      "apply_link": "https://www.indeed.com/viewjob?jk=39633aba906635d6",
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=MHZOkhKExUsPP0X0AAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWMsQrCMBBAce0niMPNgomILrqJIDpWRHApSTyaSJoLuVPaz_CPbZcH7w2v-s2q7QMtnPCLkTIWWEH9sQNQgtqEyKNfyQKjKc5P9UzURpwfvEjmvdbMUbUsRoJTjjpNCS31-k2WJzTsTcEcjWCz2a17lVO7XBwDPYcO4ZIchAT3FARfcBsvyH83zBnflAAAAA&shmds=v1_ARwrE21L-hjk4nmFNlWxb4BWzLmIBJsIemW4TZzMB6fJuBtFgg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=MHZOkhKExUsPP0X0AAAAAA%3D%3D"
+    },
+    {
+      "position": 7,
+      "title": "Ruby on Rails Developer – Onsite Contract in Colorado",
+      "company_name": "360 IT Professionals",
+      "location": "Broomfield, CO",
+      "via": "via JobLeads",
+      "description": "An IT consulting firm in Broomfield, CO is seeking a Ruby on Rails Developer for a 6-12 month on-site project. The role involves coding in Ruby on Rails, writing unit and integration tests, and deploying applications using Linux and Docker. This is a full-time position with no remote options. Ideal candidates will have strong skills in Ruby, Java and related technologies, contributing to projects for key clients and partners.",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Ideal candidates will have strong skills in Ruby, Java and related technologies, contributing to projects for key clients and partners"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The role involves coding in Ruby on Rails, writing unit and integration tests, and deploying applications using Linux and Docker",
+            "This is a full-time position with no remote options"
+          ]
+        }
+      ],
+      "extensions": [
+        "6 days ago",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "posted_at": "6 days ago",
+        "schedule": "Full-time",
+        "no_degree_mentioned": true
+      },
+      "apply_link": "https://www.jobleads.com/us/job/ruby-on-rails-developer-onsite-contract-in-colorado--broomfield--ef29fcf5585e867dc53b4f24eac72c22e",
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=1hcmGSSkTId_EftmAAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWOMQ6CQBBFY8sRrKayMMoSjRbaiYnRQgyxJ8sywJplZ7OzGuy8g2fxQp5EbH5e8_J-9BlF5_xePoEs5FIbhj0-0JBDD9_XGzLLOiCkZIOXKoC2AxvysiKYw4lKYJRetX__QNQYHG_bEBxvhGA2ccNBBq1iRZ0giyX14kYl_6fgVnp0RgYsFqukj51tppPlOoHjFS6eamTWZOXwaajuPFFXazTVDNLsB6vebde4AAAA&shmds=v1_ARwrE21MLnHgQezSBkNHdSoB01LmzDvNyjQpT60eWVK8pAofdg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=1hcmGSSkTId_EftmAAAAAA%3D%3D"
+    },
+    {
+      "position": 8,
+      "title": "Ruby on Rails Developer",
+      "company_name": "PSG Global Solutions",
+      "location": "Broomfield, CO",
+      "via": "via ZipRecruiter",
+      "description": "<div>   <div>   <p></p>   Job Description  </div>  <div>   <div>    Level 3 has a fairly sizeable content distribution network (CDN) - people who generate a lot of internet content. Microsoft, Apple, video providers. We have servers numbered in the tens of thousands. To support this, we can't rely on our Ops teams and expect them to jump on each box individually. Rely heavily on automation - we do builds, repairs, all sorts of things through automation platform. Would like this person to work on the automation platform. The core of the application is written in Ruby. Definitely like someone who has good Ruby skills as well as front end Ruby on Rails framework. Looking for someone with Ruby skills, Ruby on Rails to help build the front-end. Provide a simpler way of interacting with the system, that's where the Rails framework comes in. Bits of data, how things should be built, the fallout...all the things you think would be required to run a network of this scale, that's what this person will work on. Another bit of desirable experience would be combination of networking and sys administration. Networking comes into play when we have stuff deployed across the world - being able to develop an application that can work in a WAN environment, understanding how running these jobs across this broad of an environment would affect the design. Our CDN is built on generic white box servers. Knowing the details to take the box, load the applications, ready to start serving content, knowing the general build process is helpful. In summary, someone who knows Rails, can help with the supporting systems and front-ends to this application, someone who has some Ruby knowledge who can get into the core application, get in to support it, some supporting knowledge around networking and sys administration. <br><br>    Work environment: <br>    Largely self-contained group. Start-up environment. <br><br>    Typical day:<br>    Working with the other developers on the application. We would do demos, work with some of our stakeholders on some of the externally facing things. <br><br>    Strong preference to have someone onsite here in Broomfield. <br><br>    Bachelor's is nice to have - not required<br><br>    Top 3-5 things need to see on a resume:<br>    Certainly a depth of skill on the Ruby and the Rails side<br>    Red flag for me are folks that switch jobs every few months. Looking for someone we can bring in and make part of the team. Preference would be for someone to go from contract to perm. Looking for stability. <br>    Appealing to us would be experience with SaltStack (which is a configuration management framework), 2nd would be Puppet or Chef<br>    People who know how to build a server - that experience would be really desirable to us as well<br><br>    Important non-technical skills?<br>    Bonus would be people that are tinkerers - people who play with raspberry pi's or arduinos. Shows they're something of a kindred spirit<br>   </div>  </div>    <div>   <p></p>   Qualifications  </div>  <div>   <ul>    <li>5+ years of Ruby on Rails (prefer v2.0+ experience) development including all layers (model, view, and controller); tend to build by feature so canA't prefer to work only in one architectural layer. </li>    <li>Very strong UI skills including in depth knowledge of HTML, CSS, Javascript, Ajax, CSS, XML. </li>    <li>Flex on RoR is also a plus (although too early to tell if we will use Flex). </li>    <li>Strong SQL skills (preferably on Oracle). </li>    <li>Prefer experience working with Unix; deploying RoR on Solaris 10 with Oracle is a big plus. </li>    <li>Prior experience developing with other object oriented languages such as Java, C++, or C# a plus. Prior experience with other web application frameworks such as J2EE, Hibernate, Spring, .NET a plus. </li>    <li>Comfortable working in an agile environment with monthly releases; must adapt well to requirements changing and very comfortable multitasking. </li>    <li>BS/BA in computer software/software engineering disciplines.</li>   </ul>  </div>    <div>   <p></p>   Additional Information  </div>  <div>   <p>All your information will be kept confidential according to EEO guidelines.</p>  </div> </div>",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Would like this person to work on the automation platform",
+            "The core of the application is written in Ruby",
+            "Definitely like someone who has good Ruby skills as well as front end Ruby on Rails framework",
+            "Looking for someone with Ruby skills, Ruby on Rails to help build the front-end",
+            "Networking comes into play when we have stuff deployed across the world - being able to develop an application that can work in a WAN environment, understanding how running these jobs across this broad of an environment would affect the design",
+            "In summary, someone who knows Rails, can help with the supporting systems and front-ends to this application, someone who has some Ruby knowledge who can get into the core application, get in to support it, some supporting knowledge around networking and sys administration",
+            "Strong preference to have someone onsite here in Broomfield",
+            "Bachelor's is nice to have - not required",
+            "Certainly a depth of skill on the Ruby and the Rails side",
+            "Red flag for me are folks that switch jobs every few months",
+            "Preference would be for someone to go from contract to perm",
+            "Looking for stability",
+            "Appealing to us would be experience with SaltStack (which is a configuration management framework), 2nd would be Puppet or Chef",
+            "Bonus would be people that are tinkerers - people who play with raspberry pi's or arduinos",
+            "Shows they're something of a kindred spirit",
+            "5+ years of Ruby on Rails (prefer v2.0+ experience) development including all layers (model, view, and controller); tend to build by feature so canA't prefer to work only in one architectural layer",
+            "Very strong UI skills including in depth knowledge of HTML, CSS, Javascript, Ajax, CSS, XML",
+            "Strong SQL skills (preferably on Oracle)",
+            "Prefer experience working with Unix; deploying RoR on Solaris 10 with Oracle is a big plus",
+            "Comfortable working in an agile environment with monthly releases; must adapt well to requirements changing and very comfortable multitasking",
+            "BS/BA in computer software/software engineering disciplines",
+            "18 more items(s)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Rely heavily on automation - we do builds, repairs, all sorts of things through automation platform",
+            "Provide a simpler way of interacting with the system, that's where the Rails framework comes in",
+            "Bits of data, how things should be built, the fallout...all the things you think would be required to run a network of this scale, that's what this person will work on",
+            "Knowing the details to take the box, load the applications, ready to start serving content, knowing the general build process is helpful",
+            "Working with the other developers on the application",
+            "We would do demos, work with some of our stakeholders on some of the externally facing things",
+            "3 more items(s)"
+          ]
+        }
+      ],
+      "extensions": [
+        "Full-time"
+      ],
+      "detected_extensions": {
+        "schedule": "Full-time"
+      },
+      "apply_link": "https://www.ziprecruiter.com/c/PSG-Global-Solutions/Job/Ruby-on-Rails-Developer/-in-Broomfield,CO?jid=220bc72a804a0906",
+      "apply_links": [
+        {
+          "link": "https://jobs.smartrecruiters.com/PSGGlobalSolutions2/106034372-ruby-on-rails-developer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "smartrecruiters.com"
+        },
+        {
+          "link": "https://bebee.com/us/jobs/ruby-on-rails-developer-psg-global-solutions-broomfield-co-united-states--theirstack-700104565?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "bebee.com"
+        },
+        {
+          "link": "https://us.trabajo.org/job-4023-1f62d74fb54b9152b456561974fa62d7?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "trabajo.org"
+        }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=skyKbTIE_9wKsKeCAAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXJsQrCMBAAUFz7CU43OYgmIrjopkLARWk_oCT1TCPXXMilUj_E_5Uub3nVb1GpenRf4Ai1DSRwxQ8SJ8ywhRs7ELS56-c3zJ5weepLSXLUWoSUl2JL6FTHg-aIjif9ZiczrfQ2YyJbsN0fdpNK0a9Xj8aAIXaWoGEaS-AoECKcM_PwCkjPDVzuf9YKVt-YAAAA&shmds=v1_ARwrE20ShFSlLK8l7gUoKtSsawAlDAy_gOTh8UrbnpJtcYEJzA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=skyKbTIE_9wKsKeCAAAAAA%3D%3D",
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAz1BMVEX7rTr///8AAAD7rDr/szz/v0D/uT7/sTv/uz//tj3/wUH+rjonJyf/vT+/v7/g4OC+lDHq6uqZmZk7OzsSEhKpgitra2vw8PCfn59JNhKTk5PJycnLnjT2vT+qqqqEZCFqTBkyMjJmRBZUVFT/x0O1ji/Fii5TPRT/1Ed2dnZwVRyZdSfvsjyBgYEaGho8Kg2FXR/bpTdFLA6ebyVFRUUmGwiQayQuIQtfRhcPAAA0IArppDfSmzParDlmUBuseihLPxV2Txq6nDQbEgYnFQd/+fguAAAEg0lEQVRIiZ2XC1fiOhCAyyRNm8YCioUFWnGxgNrIQ5Atr+V69f//pjuTluW9cO7oOUjTL/PIZGa0Cv9TrJNPb4t31co9wH2lele8vRYsNW5gT24apSvA4sS8/D4cB50gGA/r5uukeAFsVvCtj2koPFdyFOl6Ipz+woeV5l/A2gu+kYa2cCzGLCP4yYUdprhQrZ0Dm+hbL7SRsvaFOXbYA+g3T4M/cNeO5xxSG7SDyz9OgQ2AuhYnMYMKjXF6OwZR32t0Wl1O8ugVoHEIPgC0PHUeI1Fea2ttDjZR3yUOxUOdxV2wdgP16DJnqagO/doOWAXQzmXOshw9g+oWREM75+O5K0yWAZp/wAqk3lUckl4KPzdgEWB0laHG2FEWHwIn8HitQlRpvxqVCJYAwqsVZiqbBmzA/LJCRr8Ol+TlO2Uegn1I5Nm38z8cV2uXL5adhbJkAkDg7bnQOFIIabKXuWE6g3T1G6DLja0lBDFL3R0dTrYJ436YDIfJCM+XuZ2s+AwA1vjdn8EDgg3oZS463FG+Xi5s1MLEMq9UgcvUCj/r3YAqyNRnzGujk1bhCYaUNY4uB8voN+2LWhx696P3ARRxf4gPYymiOcBvVCLH8IRgHwJObozxYv2TaQm5+wnwbxw/t9sdbfl4gxOXMYFR6blYhAKMjlXAPEXQ4l1Ceh1chC/bxhLTCrV4fuaMuehbgFZxNH8u0LhyDpYpHg45lcaOTUZ2/Wmm++Mz9JggjQg6C4BvfQiaCCwlY/4jXWr7a1PHU9tDz9sYFLoZs5XagsZUpb8BFrgFnW/dZ16Q5mzZX5Pfnoypqoc7IAXHslyMWRdTSAbkiZJx7MtRiEcw5dE3HcR6QNtgBuTBmcBUmuzoZbEjcGCPgt77MxfPaHcgyUaSx9RkAB5HBcEXaFMCMB8L0TziKsbVYUyvpt01bgY+pRyZ/RrjIU1tZn/Ci0m5L580+i3Kj3D1ahxxkzw2sxXHguHFq6V2Zcukjv+FRdKigkOFirnrPw2x5eHhhe3v2bwdaDxIsZ6Ox7bte2jAWlqaLiReK/ICVcounf8MdSQ+mc7dCH+koupPe/aSFkVHKxMbAqtZllMGfEd6udw2EJXfSKYHG2PKkqHeJwMWM1sVXjMYKc7VcTlwdGs+m83TREvmaFOtqFhhFDF1TQYsz7QdJSKtI19go3VbZKkB78hyyxKDLAPOiMoMVzprWQTW8IhsZmEuz9aXCjqzUWFtU8mxN4aSqcVIn1eYC8dI3G2bTgV+YbNy1MWGpbAK/NzpVqXM2IvCqEE2dxsrxie5oirbSW7otpVjh0wu6WQ25szT4fAwIfKvPioP9U2Opo7ahMYOfn5cMUNHpXYEFrDAwiD0TyQcYcpdDbZ27oOFN7pRkXs0keEDEdFtfSucBgvFPq4m2t/OgDQFKsfWdK37e6Pn/thZezMFsaM9wR0jXHiy80hPX/aGx6NBt1TN+tIwKIejUVgOhtlVrB4Oycej9e3hZE2z9fFcfnKYLz1U7zfQffXhxER+7r8A42+p1CzVzi7/B6rDYbxZi/djAAAAAElFTkSuQmCC"
+    },
+    {
+      "position": 9,
+      "title": "Ruby on Rails Developer",
+      "company_name": "Lafmatch",
+      "location": "Anywhere",
+      "via": "via Indeed",
+      "description": "<div>\n <p>Programming is hard work but we believe it should be fun too. And if the product itself is fun? Even better! Lafmatch is a new entrant in the casual online dating space. We’re currently in the process of repurposing technology used in our previous product, Laflife, for use in Lafmatch, and it all revolves around humor—more specifically, the science of how different people’s senses of humor interact with each other and aid in forming new relationships.</p>\n <p>We’re looking for a sharp, user-focused Rails programmer that cares equally about making quality products that users love as well as writing quality code that is easy to read and maintain. Our Rails stack is fairly standard and up-to-date (though we might request you help us in modernizing one or two legacy areas of the codebase). Some frontend expertise is required as well (Backbone experience ideal but not required—also we use some Ruby on the frontend as well via the Opal transpiler).</p>\n <p>In general, we are looking for a candidate with experience in:</p>\n <ul>\n  <li>Ruby on Rails</li>\n  <li>JavaScript/jQuery</li>\n  <li>Git & Github</li>\n  <li>PostgreSQL</li>\n  <li>Sidekiq/Background workers</li>\n  <li>Redis Caching</li>\n  <li>Third-party API integrations (particularly Facebook oAuth)</li>\n  <li>Basic Linux VPS maintenance (DigitalOcean, etc.)</li>\n  <li>Hybrid mobile apps (Turbolinks 5, etc.) not required, but a bonus</li>\n </ul>\n <p>Note: if you’re mainly into Node.js or some other stack and dabbled with Rails in times past, this probably isn’t an ideal fit for you. We are really looking for somebody whose bread and butter has been Ruby/Rails programming. :)</p>\n <p>You will principally be working with the lead developer for Lafmatch, as well as the founder. It’s a small team with a neat startup vibe.</p>\n <p>We look forward to (virtually) meeting you!</p>\n</div>",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Some frontend expertise is required as well (Backbone experience ideal but not required—also we use some Ruby on the frontend as well via the Opal transpiler)",
+            "In general, we are looking for a candidate with experience in:",
+            "Ruby on Rails",
+            "JavaScript/jQuery",
+            "Git & Github",
+            "PostgreSQL",
+            "Redis Caching",
+            "Third-party API integrations (particularly Facebook oAuth)",
+            "Basic Linux VPS maintenance (DigitalOcean, etc.)",
+            "Hybrid mobile apps (Turbolinks 5, etc.) not required, but a bonus",
+            "Note: if you’re mainly into Node.js or some other stack and dabbled with Rails in times past, this probably isn’t an ideal fit for you",
+            "We are really looking for somebody whose bread and butter has been Ruby/Rails programming. :)",
+            "9 more items(s)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Our Rails stack is fairly standard and up-to-date (though we might request you help us in modernizing one or two legacy areas of the codebase)",
+            "You will principally be working with the lead developer for Lafmatch, as well as the founder"
+          ]
+        }
+      ],
+      "extensions": [
+        "Work from home",
+        "Contractor",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "work_from_home": true,
+        "schedule": "Contractor",
+        "no_degree_mentioned": true
+      },
+      "apply_link": "https://www.indeed.com/viewjob?jk=8a4bbbd7bbb82385",
+      "apply_links": [
+        {
+          "link": "https://www.upwork.com/freelance-jobs/apply/Ruby-Rails-Website-Developer_~022062213999894895305/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "upwork.com"
+        },
+        {
+          "link": "https://talents.vaia.com/companies/pavago/san-antonio/ruby-on-rails-developer-84064546/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "vaia.com"
+        },
+        {
+          "link": "https://www.mysmartpros.com/tuition/job/ruby-on-rails-developer/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "mysmartpros.com"
+        },
+        {
+          "link": "https://www.wayup.com/i-j-Lafmatch-067780559710210/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "wayup.com"
+        },
+        {
+          "link": "https://www.ziprecruiter.com/c/Xforia/Job/Ruby-On-Rails-Developer/-in-Remote,US?jid=5691cacf4a7c78e5&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "ziprecruiter.com"
+        },
+        {
+          "link": "https://www.tealhq.com/job/ruby-on-rails-developer_7ea1a03182368366050af480d9a0824e2dcc5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "tealhq.com"
+        },
+        {
+          "link": "https://lensa.com/job-v1/navtech/remote/ruby-on-rails-developer/ab2a30ae9b347f792d3ee6310383012e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "lensa.com"
+        }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=OT07lMhv1N3d8XIHAAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBCAYVz7BjrdLJiI4KKrIIhTxblc4plG0lzInVLfwMe2Xf7lh6_5LRrTvt0XOEOLMQmc6EOJC1XYwIUdCGH1_fzPzCHR6tirFjlYK5JMEEWN3ngeLGdyPNoXO5nTSY-VSkKlbrffjqbksF5e8TmgTmDMcM9R6QG3iSD5A7ZKiW6LAAAA&shmds=v1_ARwrE214eGuOvKjpBNQuB4izCn_lT7At7fbRjTCturgDwIjJ-g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=OT07lMhv1N3d8XIHAAAAAA%3D%3D"
+    },
+    {
+      "position": 10,
+      "title": "Full-Stack Ruby on Rails Developer",
+      "company_name": "Bicycle Technologies International",
+      "location": "Anywhere",
+      "via": "via Indeed",
+      "description": "<p><b>Position Summary</b></p>\n<p>We are seeking a Full-Stack, Ruby on Rails Developer to build and maintain front-end and back-end code for BTI’s website and other software used throughout the company. Come join Bicycle Technologies International (BTI) as a full-time Full-Stack Ruby on Rails Developer supporting our operations in New Mexico and Nevada. Interaction with other software developers, sales, administrative, warehouse, and purchasing staff is essential in this role.</p>\n<p>Benefits include paid time off, health and dental premiums covered 100% by BTI, and a 401K funded by BTI at 3%. In addition, after an employee has been with the company for two (2) years, they become part of BTI's Employee-Ownership Trust (EOT), which makes them eligible for profit disbursements.</p>\n<p>Please note that we are NOT hiring from the following states: CA</p>\n<p>Even though this position is remote, you must be located and residing in the United States to be considered for this position.</p>\n<p><b>Job Duties Summary</b></p>\n<p>· Work collaboratively with software developers and IT staff to plan, develop, and execute feature and product requests according to BTI’s Software Development Life Cycle (SDLC)</p>\n<p>· Respond to incidents reported by customers, staff, and systems monitoring in a timely manner</p>\n<p>· Coordinate system and software upgrades with software developers and other staff</p>\n<p>· Investigate and resolve issues on the Ruby on Rails based website and other software</p>\n<p>· Advise computer users on effective use of the Ruby on Rails based website and other software</p>\n<p>· Maintain code documentation as necessary</p>\n<p>· Willingness to learn and apply company’s best practices and coding standards</p>\n<p>· Other duties as assigned</p>\n<p><b>Education / Experience</b></p>\n<p>· Bachelor's degree in computer science OR related field OR an equivalent combination of education and related experience</p>\n<p>· At least 3+ years of working experience as a full-stack, Ruby on Rails developer</p>\n<p><b>Required Skills</b></p>\n<p>· Ruby / Ruby on Rails</p>\n<p>· Modern Ruby on Rails front-end stack: Hotwire, Stimulus, Turbo</p>\n<p>· HTML, CSS, Javascript</p>\n<p>· Minitest testing framework</p>\n<p>· Bootstrap CSS framework</p>\n<p>· SQL (Microsoft SQL preferred)</p>\n<p>· Git version control system</p>\n<p><b>Bonus Skills</b></p>\n<p>· Unix shell / Bash</p>\n<p>· Markdown</p>\n<p>· Elasticsearch</p>\n<p>· Modern front-end frameworks</p>\n<p>· Microservice architecture</p>\n<p>· API design and development</p>\n<p>· Third party API integrations: Shipping API's</p>\n<p>· Mobile development: iOS (Swift / Obj-C), Progressive Web Apps (PWA)</p>\n<p>· Cloud Infrastructure: AWS, Azure, Bare Metal Dedicated Servers</p>\n<p>· Containerization: Docker</p>\n<p>· DevOps: CI/CD, Application deployments</p>\n<p>· Microsoft SQL Server Advanced Features: Replication, Tuning, CLR Integration</p>\n<p><b>Salary Range</b></p>\n<p>· 90,000 – 120,000 depending on experience</p>\n<p><b>WE WILL ONLY RESPOND TO JOB APPLICATIONS SENT THROUGH INDEED.</b></p>\n<p>Job Type: Full-time</p>\n<p>Pay: $90,000.00 - $120,000.00 per year</p>\n<p>Benefits:</p>\n<ul>\n <li>401(k)</li>\n <li>Dental insurance</li>\n <li>Flexible schedule</li>\n <li>Health insurance</li>\n <li>Paid time off</li>\n</ul>\n<p>Compensation Package:</p>\n<ul>\n <li>Bonus opportunities</li>\n</ul>\n<p>People with a criminal record are encouraged to apply</p>\n<p>Application Question(s):</p>\n<ul>\n <li>Prove you're not a bot by answering 'Bicycle Technologies International' to this question. Thanks!</li>\n <li>Prove you've read through this job posting by typing your name backwards for this question. Example: if your name is \"John Doe\", answer \"eod nhoj\"; \"nhoj eod\" works too.</li>\n</ul>\n<p>Work Location: Remote</p>",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor's degree in computer science OR related field OR an equivalent combination of education and related experience",
+            "At least 3+ years of working experience as a full-stack, Ruby on Rails developer",
+            "Required Skills",
+            "Ruby / Ruby on Rails",
+            "Modern Ruby on Rails front-end stack: Hotwire, Stimulus, Turbo",
+            "HTML, CSS, Javascript",
+            "Minitest testing framework",
+            "Bootstrap CSS framework",
+            "Git version control system",
+            "Unix shell / Bash",
+            "Markdown",
+            "Elasticsearch",
+            "Modern front-end frameworks",
+            "Microservice architecture",
+            "API design and development",
+            "Third party API integrations: Shipping API's",
+            "Mobile development: iOS (Swift / Obj-C), Progressive Web Apps (PWA)",
+            "Cloud Infrastructure: AWS, Azure, Bare Metal Dedicated Servers",
+            "Containerization: Docker",
+            "DevOps: CI/CD, Application deployments",
+            "Microsoft SQL Server Advanced Features: Replication, Tuning, CLR Integration",
+            "Prove you've read through this job posting by typing your name backwards for this question",
+            "19 more items(s)"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Benefits include paid time off, health and dental premiums covered 100% by BTI, and a 401K funded by BTI at 3%",
+            "In addition, after an employee has been with the company for two (2) years, they become part of BTI's Employee-Ownership Trust (EOT), which makes them eligible for profit disbursements",
+            "Bonus Skills",
+            "90,000 – 120,000 depending on experience",
+            "Pay: $90,000.00 - $120,000.00 per year",
+            "401(k)",
+            "Dental insurance",
+            "Flexible schedule",
+            "Health insurance",
+            "Paid time off",
+            "Compensation Package:",
+            "Bonus opportunities",
+            "9 more items(s)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Interaction with other software developers, sales, administrative, warehouse, and purchasing staff is essential in this role",
+            "Work collaboratively with software developers and IT staff to plan, develop, and execute feature and product requests according to BTI’s Software Development Life Cycle (SDLC)",
+            "Respond to incidents reported by customers, staff, and systems monitoring in a timely manner",
+            "Coordinate system and software upgrades with software developers and other staff",
+            "Investigate and resolve issues on the Ruby on Rails based website and other software",
+            "Advise computer users on effective use of the Ruby on Rails based website and other software",
+            "Maintain code documentation as necessary",
+            "Willingness to learn and apply company’s best practices and coding standards",
+            "Other duties as assigned",
+            "6 more items(s)"
+          ]
+        }
+      ],
+      "extensions": [
+        "20 days ago",
+        "90K–120K a year",
+        "Work from home",
+        "Full-time",
+        "Health insurance",
+        "Dental insurance",
+        "Paid time off"
+      ],
+      "detected_extensions": {
+        "posted_at": "20 days ago",
+        "salary": "90K–120K a year",
+        "work_from_home": true,
+        "schedule": "Full-time",
+        "health_insurance": true,
+        "dental_insurance": true,
+        "paid_time_off": true
+      },
+      "apply_link": "https://www.indeed.com/viewjob?jk=c4034623e2220599",
+      "apply_links": [
+        {
+          "link": "https://www.jobleads.com/us/job/remote-ruby-on-rails-developer-full-stack-mentoring--united-states--eb3415a3be31922b1c9ccb609eb62de08?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "jobleads.com"
+        },
+        {
+          "link": "https://yulys.com/jobs/senior-ruby-on-rails-developer-full-time-permanent?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "source": "yulys.com"
+        }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=ruby+developer&htidocid=oKU2bodOk9AOEFzWAAAAAA%3D%3D&hl=en-US&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWOMQrCQBAAsc0TrLYWkohioXYiipZR63A5l-R03T2yG0ke5R9NmmkGhkl-s2R76ojSmzn_hqKrBhCGwgVSOOIXSSK2kMJVKlB0rW8mfxapCef7xizqLs9VKavVnAWfefnkwlhJn7-k0gmlNq7FSM6wXG2WfRa5XqwPwQ-eEO7oGxaSOqDChQ1bHkPCjiAwPDgYPmH8M9Q_rz7dGbAAAAA&shmds=v1_ARwrE22ERrGqj7ZVKae9GZr5OVrSondBMP9GUzwN7gKyOO7iig&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=ruby+developer&htidocid=oKU2bodOk9AOEFzWAAAAAA%3D%3D",
+      "thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIADgAOAMBEQACEQEDEQH/xAAZAAEAAwEBAAAAAAAAAAAAAAAAAQIEBwX/xAAvEAABAwMBBgILAQAAAAAAAAABAAIDBAUREgYTITFBkVKhFSIyUVNhcYGCktEU/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwYEB//EACoRAAICAQEGBAcAAAAAAAAAAAABAgMEERITMUFRkSGBgrEFFCIyUmFx/9oADAMBAAIRAxEAPwDKu+PngQBAEAQBAEAQBAEAQBAEAQBAXEUh5RvP0aVXbj1Lqub5E7ib4Un6lRvIdUN1PoyDFIOcbx+JU7yHUbua5EaHeE9k249SNiXQaHeE9k249RsS6FVYqXikdFKySM4exwc04zghRKKkmnwZaMnGSa4o63a6muptmWVdyNRU1Tmay2GEF41eyA0AcgR5rjroVTyXCrRR/b8Ds6Z2wxVO3Vy/S8exbZ7/AFPpZp5Zri5x4MjuEbYyMdfVHJRlbCmopR9Lb9ycRzcHJt+rRex5Oytzu14vdbLUVDRRQZbuogCwu5DBxkjgT2XrzqKMeiCivqfPmePAyL8i+bk/pXJcCtbcbzcdphS2h80VvhkEU0zIwW6hxfkkHj0x/VNdOPVi7d3jNrVLXsLL8m7K2KfCCejfuadvLrcbbSQejRLGC7VLO2PLWjkASRgZJ8ln8Lx6bpve+SL/ABXIupgt15s5jLI+aV8sri6R7i5zj1J4krqoxUYqK4I5SUnKTk+LKKSprFzuAAAr6sADAAndw81j8tT+C7I3+Zu/N9yslwrpWFktbUvYeBa6ZxB+2VKx6ovVRXYh5Fslo5PuarXf7naYHwUFQIo3u1EbtruOMdR8llfhUXy2rFqzWjOvoi41vRGSKurIQ4Q1dRHqdqdolc3J95wea1dFUvuin5GMb7Y/bJrzE1dWTs3c9XUSs56XyucOxKmNFUHrGKT/AIJX2zWkpNr+mdaGQQBAEAQBAEAQBAEAQBAEAQBAf//Z"
+    }
+  ],
+  "pagination": {
+    "next_page_token": "eyJmYyI6IkVzd0VDb3dFUVVwcFZEUjBTa2h5UzNsTlVHNXNUbEU0V20xVGQwdHVUeTFKTFVGMllYcGlSMGczTUd0Wk9IRnFVRGx3TFV4ME5IWTVlblpGTVRGaGVHeDBiRU5YVERseFoyOUtURk5xVTJObU9XcGhPR1JtWDBzd1ltTllTMjF4UjBGUGNsUk5XRWR0VjFsQ1VUY3hMVU5IWjJkak5HOXVNbXhPTkRaaFVVOWphMmRHT1c5TVgwVnZUVXBZZDBOT1JFVjNRa0ZOYkdSemNqUlliVkYwWVdaSlpGOWlWMmwxYkhoTGFHNU1SVWQ2Y205d1RHTmxiRFYyTmxGbGJFNUZhazFRWTBSMmRWaFVhMDlUYjJoR09VOHlURkZ2ZG5SdVkzbEtkMkZOU21ob2REazNNMHRXTmpsNlNrMTNRMUV3VjJaV01sOUdORGQ0VVVndGFVWXplVmN4ZURoak1WRkJWVzlKZGtKRlNrMVZiekZIZDFremIyc3dRVlE1YjNCWFVETjNhelpvUWsxek5HeFJVRFpYWWkxbWFteFhTa2xUV1RCVWEyRkhRMmRMUnpWZmRYRnFWblJtZURaa1ExWlRNbE5pZVdkcE1FUnZOVEpoYVdkQmNWRktNRzVRZWpOU1RXbHJjRkZaTUc1eVdYbDZTMmhOVUc1U1YyWTBWSFJYWjJOaWFGbHdSMVJtTjNndFlrY3RUM1JVWVRKSU0ycG1SVXQ2TlY5UmRtMWpiV0l6T0dGcGFISktVRkZZY1Zaak1WOTRkRUZSU2kxUVpVdHBiMWhWU0V0a2FqRnZiRjlPUkdkMlJVSk9NbGd6T1dWbU1sbFNXVU5qVlVwRU5UaGxhams1Vms1VVYzQTVNazl1ZGxJMmNuVlhRMlZZVVRoaFZrZGFTRll6WmpKaVJIVjJRMnBIWnpnd01HRjJRbWRFV0dJU0YxVnlWa0poY25KTFNuUkRORzEwYTFBelR5MDJjMUV3R2lKQlJITnlPV1pTVm1WTVRWaGtTbXRFVXpCclNIRXhhMDFUYUhobWExSkVjVXRuIiwiZmN2IjoiMyIsImVpIjoiVXJWQmFycktKdEM0bXRrUDNPLTZzUTAiLCJnbCI6InVzIiwiaGwiOiJlbiIsInVkbSI6OCwiYXN5bmMiOiJfYmFzZWpzOiUyRnhqcyUyRl8lMkZqcyUyRmslM0R4anMucy5lbi41RzdRaU9pUHNPQS4yMDE5Lk8lMkZhbSUzREFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUVRQUJBQUFnQWdBSUFBQUVBQUFBQUFBQUFBQUFBQUFBQURBQUFnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUlFQUVBQUpBQUFBQUFBQUFBQUFnQUFBQUFBQVFBQUFBQUFBQUFBTUFCQUFBQUlJQVFBQUFCUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUNBSUFBQUFnQWlJQUFJQ19tVzhBQUdnQUFBQUFPQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBSUFFQUFBQUFBQUFBQUFCWUFBQUFJQmdBQUNBQUFnSWdBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRUFBQUFBQUFBQUFBQUFBQUFBQUFFQUFBQUFRQUVBQUFBQUVBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBUUFBQUFBQUFBQUFBQUFBQUFBQUVBQUFBQkFBUUFBQUFBQUJ3QUFBQUFBQUFCQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRU1BQUFBQUFBQUFBQUFCUUFFUEFEZ0FBSUFBQUFBQUFRQUFBQUFBQWdJQUFBQUFBQUFJQUFBZ0VBREFBQUFBQnlBRHdlZ0VNRUJRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQkFBQlRBT0pEOGdBQUlBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUtRSVR3RUFBQUFBQUd3TkFBZyUyRmRnJTNEMCUyRmJyJTNEMSUyRmljaGMlM0QxJTJGcnMlM0RBQ1Q5MG9GSml0WTNPQ0NaMnVOd1djejNoSEdsZzl4QUxBJTJGY2IlM0Rsb2FkZWRfaF8wJTNGY2IlM0QxMjE1MDkzNzgsX2Jhc2Vjc3M6JTJGeGpzJTJGXyUyRnNzJTJGayUzRHhqcy5zLlctM0pLUEc3bDAwLkwuQjEuTyUyRmFtJTNEQUFBUUFBQUFRQUFBQUFBQUFBQUFBQUNBQUFCRUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFGQUFBQUFBZ0FBQUFBQUFBQUFBQUFCQUFBQUFCQUFBQUFBRUFBQUlBTUFBQUFBQUFBQW9BQUFBQUFBQUEySUFBQUVBQUFBQUFBQUFDamtBd0FBd0FBQUFBQUFBQThBQUlBUUFBQUFBQUFBQUFBQUFBQUFDQUFBSkFBQUFBQUFBQUFBQWdBQUFBQUFBQUFBQUFnQUFBQUFBQUJBQUFBSW9BQUFBQUFFS0FBQWdBQUFBQUFCQUFBQUFBQUFBQUNBQUFJQUFBQUFBQ0FBQUFBQUFBQUFBSEFBQUFBQUFBQUFBQUFBQUFnQUFBQUFBQUFBQUFFQUFBQmdBSkFHQUFBQUFBQUFRQmdBQUFBQUFBQUFBQ0FBQUFJQUFBQUFBQUFBQUNCSUFBUUFRTUFBQUFBQUFCZ0FBQUFBQUFBQUFBRUFCS0VRQUFBQlFBRUlDQUFBQUFBNEFBZ0FBQUFBQUFBQUVBZ0FBQUFBQUFBQUFFQUFBSUlBaEFBQ0FBQUFBRUFBQUFBQUFBZ0FBQUFnQndBQUFBQUFBSUFBQWdBQkNBQXdnZ3dBUUtJZ0FFUUFBQUlBSUFBQUFJZ0FBQUFBQUJTQWdBQUFBQUFBQUFBQUFBQVFBUUFBQUFBQUFBQUFBQUFMQUxBRUFnRUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUNBQWdBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBSUElMkZiciUzRDElMkZjYiUzRGxvYWRlZF9oXzAlMkZycyUzREFDVDkwb0ZhaHFPSndyWE02cDlzYW5iTlFHUjlycHRfWmclM0ZjYiUzRDEyMTUwOTM3OCxfYmFzZWNvbWI6JTJGeGpzJTJGXyUyRmpzJTJGayUzRHhqcy5zLmVuLjVHN1FpT2lQc09BLjIwMTkuTyUyRmNrJTNEeGpzLnMuVy0zSktQRzdsMDAuTC5CMS5PJTJGYW0lM0RBQUFRQUFBQVFBQUFBQUFBQUFBQUFBQ0FBQUJFQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUZBQUFBQUFnQUFBQUFBQUFBQUFBQUJBQUFBQUJBQUFBQUFFQUFBSUFNQUFFUUFCQUFBb0FnQUlBQUFFQTJJQUFBRUFBQUFBQUFBQUNqa0F3Z0F3QUFBQUFBQUFBOEFBSUFRQUFBQUFBQUFBQUFBQUFJRUNFQUFKQUFBQUFBQUFBQUFBZ0FBQUFBQUFRQUFBQWdBQUFBQU1BQkFBQUFJb0FRQUFBQlVLQUFBZ0FBQUFBQUJBQUFBQUFBQUFBQ0FDQUlBQUFBZ0FpSUFBSUNfbVc4QUFIZ0FBQUFBT0FBQUFBQUFBQWdBQUFBQUFBQUFBQUVBQUFCZ0lKRUdBQUFBQUFBQVFCaFlBQUFBSUJnQUFDQUFBZ0lnQUFBQUFBQUFBQ0JJQUFRQVFNQUFBQUVBQUJnQUFBQUFBQUFBQUFFQUJLRVFBQUFCUUFFSUNBQUFFQUE0QUFnQUFBQUFBQUFBRUFnQUFBQUFBQVFBQUVBQUFJSUFoQUFDQUFBQUFFQUFBQUJBQVFnQUFBQWdCd0FBQUFBQUFJQkFBZ0FCQ0FBd2dnd0FRS0lnQUVRQUFBSUVNQUFBQUlnQUFBQUFBQlNBa1BBRGdBQUlBQUFBQUFBUUFRQUFBQUFnSUFBQUFBQUxBTEFFQWdFQURBQUFBQUJ5QUR3ZWdFTUVCUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJBQUJUQU9KRDhnZ0FJQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFLUUlUd0VBQUFBQUFHd05BQWclMkZkJTNEMSUyRmVkJTNEMSUyRmRnJTNEMCUyRmJyJTNEMSUyRnVqZyUzRDElMkZpY2hjJTNEMSUyRnJzJTNEQUNUOTBvRllUazktaEx5aHVTQTQtVThuRUxmbnQ3dU8yUSUyRmNiJTNEbG9hZGVkX2hfMCUzRmNiJTNEMTIxNTA5Mzc4LF9mbXQ6cHJvZyxfaWQ6ZmNfVXJWQmFycktKdEM0bXRrUDNPLTZzUTBfMiJ9"
+  }
+}
